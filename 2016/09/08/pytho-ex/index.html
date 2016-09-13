@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <!-- Html Head Tag-->
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Royalive">
+  <!-- Open Graph Data -->
+  <meta property="og:title" content="pyhon数据分析练手"/>
+  <meta property="og:description" content="Royalive" />
+  <meta property="og:site_name" content="诸神之黄昏"/>
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="http://cybors.github.ioundefined"/>
+  
+    <link rel="alternate" href="/atom.xml" title="诸神之黄昏" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <!-- Site Title -->
+  <title>诸神之黄昏</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  
+  <link rel="stylesheet" href="/css/style.light.css">
+
+  <!-- Google Analytics -->
+  
+
+</head>
+
+  <body>
+    <!-- Page Header -->
+
+
+<header class="site-header header-background" style="background-image: url(/img/default-banner-dark.jpg)">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-title with-background-image">
+          <p class="title">pyhon数据分析练手</p>
+          <p class="subtitle"></p>
+        </div>
+        <div class="site-menu with-background-image">
+          <ul>
+            
+              <li>
+                <a href="/">
+                  
+                  Home
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  
+                  Archives
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://github.com/cybors">
+                  
+                  Github
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="mailto:reg4com@163.com">
+                  
+                  Email
+                  
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<article>
+  <div class="container typo">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-info text-muted">
+          
+            <!-- Author -->
+            <span class="author info">By Royalive</span>
+          
+          <!-- Date -->
+          <span class="date-time info">On
+            <span class="date">2016-09-08</span>
+            <span class="time">01:09:18</span>
+          </span>
+          
+          <!--  Categories  -->
+            <span class="categories info">Under 
+
+<a href="/categories/work/">work</a>
+</span>
+          
+        </div>
+        <!-- Tags -->
+        
+          <div class="post-tags text-muted">
+            Tags: 
+
+<a class="tag" href="/tags/Python/">#Python</a> <a class="tag" href="/tags/Technology/">#Technology</a>
+
+
+          </div>
+        
+        <!-- Post Main Content -->
+        <div class="post-content">
+          <p>最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是<strong>涨疯</strong>了。</p>
+<p>刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。<a id="more"></a></p>
+<p>首先想了一下基本的逻辑，先从58同城爬取一下以区域划分的房源信息。</p>
+<p>1.首先使用Chrome调试工具分析出页面中的信息所在tag的位置，通过BeautifulSoup或正则re或lxml这三个Modules分析出信息。</p>
+<p>由于三个Modules掌握都不熟练所以这混合了这三种模块。</p>
+<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lceb33g6j20h00extcz.jpg" alt="python"></p>
+<p>通过输入可以选择不同的行政区进行数据的选择。</p>
+<p>只有数据还不够直观，通过地理位置的抓取和高德地图的逆解析得到房源信息的坐标，然后展示到地图上。嗯 就这么干…</p>
+<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lco2xme7j20gt0gsgog.jpg" alt="python-amp"></p>
+<p>在匹配数据的过程中，发现会被高德(阿里)的服务器拒绝，所以加了延时500ms。</p>
+<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lcu3g5qxj211y0kgwse.jpg" alt="python-data"></p>
+<p>爬取得到的房源数据</p>
+<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lcx3fbmlj20wx0g0wmj.jpg" alt="lat-python"></p>
+<p>你解析得到的坐标数据</p>
+<p>放到页面上，<a href="http://warm.pe.hu/xiaohong-house/alpha.html" target="_blank" rel="external">alpha_version</a> 可解析出房源所在位置附近的商圈。</p>
+<p>觉得有点丑，然后又有了第二个版本<a href="http://warm.pe.hu/xiaohong-house/2nd.html" target="_blank" rel="external">2nd</a> 在此版本中发现，如果坐标一样或者坐标太近等原因导致大量的数据没有被展现出来。然后又有了第三个版本。热点<a href="http://warm.pe.hu/xiaohong-house/3.html" target="_blank" rel="external">Heatmap</a></p>
+<p>好吧，轮子造到这里。鉴于近期济南房价的<strong>疯狂涨势</strong>,留着数据，一个月后再爬取一下，再做个涨幅数据的分析。</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+    <!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <p class="copyright text-muted">
+          Theme By <a target="_blank" href="https://github.com/cybors">Roy.</a>
+          Inspired By <a target="_blank" href="https://icybors.github.com">Cybers Blog.</a>
+        <p class="copyright text-muted">
+          Powered By <a target="_blank" href="https://hexo.io/">Hexo.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- After Footer Scripts -->
+<script src="/js/highlight.pack.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var codeBlocks = Array.prototype.slice.call(document.getElementsByTagName('pre'))
+    codeBlocks.forEach(function(block, index) {
+      hljs.highlightBlock(block);
+    });
+  });
+</script>
+
+  </body>
+</html>
+

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>诸神之黄昏</title>
+  <subtitle>简单简约 专注有意义的事</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://cybors.github.io/"/>
+  <updated>2016-09-13T17:08:02.000Z</updated>
+  <id>http://cybors.github.io/</id>
+  
+  <author>
+    <name>Royalive</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Some Commands you shoud known.</title>
+    <link href="http://cybors.github.io/2016/09/12/abd-command/"/>
+    <id>http://cybors.github.io/2016/09/12/abd-command/</id>
+    <published>2016-09-12T14:44:19.000Z</published>
+    <updated>2016-09-13T17:08:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>​    每个拥有android手机的人必须要会几条ADB Commands. 掌握一下命令行通过中间人的方式，你的同事的手机如果root过或者在公共场合，可以随意查看他们手机中的资料。所以对于android手机root就等于开放。<a id="more"></a></p>
+<p>ADB  = Android Debug Bridge</p>
+<p>ADB命令有很多，整理一下几条比较常用的如下：</p>
+<p>1.查看版本</p>
+<p><code>$abd version</code></p>
+<p><code>Andorid Debug Bridge version 1.0.36</code></p>
+<p><code>Revision 8F855A3D9B35-android</code></p>
+<p>2.查看连接设备</p>
+<p><code>$adb devices</code></p>
+<figure class="highlight plain"><figcaption><span>of devices attached</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">02ae0c1021089daf device</div></pre></td></tr></table></figure>
+<p>```</p>
+<p>3.安装</p>
+<p><code>adb install &lt;apkfile&gt;</code></p>
+<p>保留数据和缓存文件，重新安装apk：</p>
+<p><code>adb install -r &lt;apkfile&gt;</code><br>安装apk到sd卡：</p>
+<p><code>adb install -s &lt;apkfile&gt;</code></p>
+<p>4.卸载</p>
+<p><code>adb uninstall &lt;package&gt;</code></p>
+<p><code>\\eg：adb uninstall com.stormzhang.demo</code></p>
+<p>卸载app但保留数据和缓存文件</p>
+<p><code>adb uninstall -k &lt;package&gt;</code></p>
+<p>5.启动/停止Server</p>
+<p>启动Server</p>
+<p><code>adb start-server</code></p>
+<p>停止Server</p>
+<p><code>adb kill-server</code></p>
+<p>6.包管理</p>
+<p>列出手机装的所有app的包名</p>
+<p><code>adb shell pm list packages</code></p>
+<p>列出系统应用的所有包名</p>
+<p><code>adb shell pm list packages -s</code></p>
+<p>列出第三方应用：</p>
+<p><code>adb shell pm list packages -3</code></p>
+<p>使用grep来过滤</p>
+<p><code>adb shell pm list packages | grep qq</code></p>
+<p>7.清除应用数据及缓存</p>
+<p><code>adb shell pm clear &lt;packagename&gt;</code></p>
+<p>8.启动应用</p>
+<p><code>adb shell am start -n &lt;package&gt;/.ui.SplashActivity</code></p>
+<p>9.强制停止应用</p>
+<p><code>adb shell am force-stop &lt;packagename&gt;</code></p>
+<p>10.查看日志</p>
+<p><code>adb logcat</code></p>
+<p>11.重启</p>
+<p><code>adb reboot</code></p>
+<p>12.获取序列号</p>
+<p><code>$adb get-serialno</code></p>
+<p>13.获取MAC地址</p>
+<p><code>$adb shell cat /sys/class/net/wlan0/address</code></p>
+<p>14.查看设备型号</p>
+<p><code>adb shell getprop ro.product.model</code></p>
+<p>15.查看Android系统版本</p>
+<p><code>$adb shell getprop ro.build.version.release</code></p>
+<p>16.查看屏幕分辨率</p>
+<p><code>$adb shell wm size</code></p>
+<p>17.检查设备是否已经ROOT</p>
+<p><code>adb shell</code></p>
+<p><code>su</code></p>
+<p>18.开启关闭wifi（需ROOT权限）</p>
+<p><code>adb root</code></p>
+<p><code>adb shell svc wifi enable/disable</code></p>
+<p>19.音量控制</p>
+<p><code>adb shell input keyevent 24/25、164</code>  </p>
+<p>24增加音量，25降低音量 164 静音</p>
+<p>20.文件管理</p>
+<p>复制电脑里的文件到设备</p>
+<p><code>adb push &lt;电脑文件路径&gt; &lt;设备里的目录&gt;</code></p>
+<p>复制设备文件到电脑</p>
+<p><code>adb pull /sdcard/sr.mp4 ~/tmp</code></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;​    每个拥有android手机的人必须要会几条ADB Commands. 掌握一下命令行通过中间人的方式，你的同事的手机如果root过或者在公共场合，可以随意查看他们手机中的资料。所以对于android手机root就等于开放。
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+    
+      <category term="Android" scheme="http://cybors.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BeautifulSoup 进阶使用</title>
+    <link href="http://cybors.github.io/2016/09/08/BeautifulSoup/"/>
+    <id>http://cybors.github.io/2016/09/08/BeautifulSoup/</id>
+    <published>2016-09-08T10:19:31.000Z</published>
+    <updated>2016-09-13T17:08:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
+<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
+<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>国事三两则</title>
+    <link href="http://cybors.github.io/2016/09/08/affairs/"/>
+    <id>http://cybors.github.io/2016/09/08/affairs/</id>
+    <published>2016-09-08T10:19:31.000Z</published>
+    <updated>2016-09-13T17:08:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>###杭州峰会，奥巴马问了马云3个问题，马云一个都没回答上来！<br>但且不说这个标题的真假，我看到这个文章内容的时候还是仔细的思考了一下的。</p>
+<blockquote>
+<p>G20 杭州峰会上，奥巴马和阿里巴巴集团主席马云探讨了一下。奥巴马说我们暂且不要讨论中国的经济总量什么时候能够超过美国，我先问问另外三个 “什么时候”：<a id="more"></a><br>第一，什么时候全球的精英会把孩子送到中国留学，而不是像今天都把他们的孩子送到美国、 欧洲留学？就连你们中国教育部部长都把自己子女送往美国上学！</p>
+<p>第二，什么时候全球的年轻人会最欣赏中国的电影、文化、书籍，而不是像今天他们最喜欢的是美国、欧洲的电影、书籍、音乐？</p>
+<p>第三，什么时候全球的消费者在选择产品的时候，会首选中国的品牌？</p>
+</blockquote>
+<hr>
+<p>哪些整天叫嚣这米国人生活在水深火热之中，美帝亡我之心不死的专家教授们，不知道怎么看待这三个问题？<br>现在的任何一所高效的正式在编老师都要求有2年以上的国外求学经验，这个又怎么讲？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;###杭州峰会，奥巴马问了马云3个问题，马云一个都没回答上来！&lt;br&gt;但且不说这个标题的真假，我看到这个文章内容的时候还是仔细的思考了一下的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;G20 杭州峰会上，奥巴马和阿里巴巴集团主席马云探讨了一下。奥巴马说我们暂且不要讨论中国的经济总量什么时候能够超过美国，我先问问另外三个 “什么时候”：
+    
+    </summary>
+    
+      <category term="life" scheme="http://cybors.github.io/categories/life/"/>
+    
+    
+      <category term="alive" scheme="http://cybors.github.io/tags/alive/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pyhon数据分析练手</title>
+    <link href="http://cybors.github.io/2016/09/08/pytho-ex/"/>
+    <id>http://cybors.github.io/2016/09/08/pytho-ex/</id>
+    <published>2016-09-08T10:19:31.000Z</published>
+    <updated>2016-09-13T17:08:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是<strong>涨疯</strong>了。</p>
+<p>刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。<a id="more"></a></p>
+<p>首先想了一下基本的逻辑，先从58同城爬取一下以区域划分的房源信息。</p>
+<p>1.首先使用Chrome调试工具分析出页面中的信息所在tag的位置，通过BeautifulSoup或正则re或lxml这三个Modules分析出信息。</p>
+<p>由于三个Modules掌握都不熟练所以这混合了这三种模块。</p>
+<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lceb33g6j20h00extcz.jpg" alt="python"></p>
+<p>通过输入可以选择不同的行政区进行数据的选择。</p>
+<p>只有数据还不够直观，通过地理位置的抓取和高德地图的逆解析得到房源信息的坐标，然后展示到地图上。嗯 就这么干…</p>
+<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lco2xme7j20gt0gsgog.jpg" alt="python-amp"></p>
+<p>在匹配数据的过程中，发现会被高德(阿里)的服务器拒绝，所以加了延时500ms。</p>
+<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lcu3g5qxj211y0kgwse.jpg" alt="python-data"></p>
+<p>爬取得到的房源数据</p>
+<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lcx3fbmlj20wx0g0wmj.jpg" alt="lat-python"></p>
+<p>你解析得到的坐标数据</p>
+<p>放到页面上，<a href="http://warm.pe.hu/xiaohong-house/alpha.html" target="_blank" rel="external">alpha_version</a> 可解析出房源所在位置附近的商圈。</p>
+<p>觉得有点丑，然后又有了第二个版本<a href="http://warm.pe.hu/xiaohong-house/2nd.html" target="_blank" rel="external">2nd</a> 在此版本中发现，如果坐标一样或者坐标太近等原因导致大量的数据没有被展现出来。然后又有了第三个版本。热点<a href="http://warm.pe.hu/xiaohong-house/3.html" target="_blank" rel="external">Heatmap</a></p>
+<p>好吧，轮子造到这里。鉴于近期济南房价的<strong>疯狂涨势</strong>,留着数据，一个月后再爬取一下，再做个涨幅数据的分析。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是&lt;strong&gt;涨疯&lt;/strong&gt;了。&lt;/p&gt;
+&lt;p&gt;刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+    
+  </entry>
+  
+</feed>
