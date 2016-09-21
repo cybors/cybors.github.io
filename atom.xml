@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cybors.github.io/"/>
-  <updated>2016-09-14T09:37:14.000Z</updated>
+  <updated>2016-09-21T14:51:42.000Z</updated>
   <id>http://cybors.github.io/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最好的语言</title>
+    <link href="http://cybors.github.io/2016/09/21/ruby-best/"/>
+    <id>http://cybors.github.io/2016/09/21/ruby-best/</id>
+    <published>2016-09-21T14:52:31.000Z</published>
+    <updated>2016-09-21T14:51:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？"><a href="#在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？" class="headerlink" title="在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？"></a>在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？</h2><p>我们来让智能的Python来告诉我们一下<a id="more"></a></p>
+<p><code>&#39;Ruby&#39; &gt; &#39;Python&#39;</code></p>
+<p><code>&#39;Ruby&#39; &gt; &#39;.NET&#39;</code></p>
+<p><code>&#39;Ruby&#39; &gt; &#39;Objective-C&#39;</code></p>
+<p><code>&#39;Ruby&#39; &gt; &#39;PHP&#39;</code></p>
+<p><code>&#39;Ruby&#39; &gt; &#39;Java&#39;</code></p>
+<p><code>&#39;Ruby&#39; &gt; &#39;C&#39;</code></p>
+<p>大家可以清晰的看到到底谁是最好的语言了，连Python的IELD环境下都自己说自己不如’Ruby’<img src="http://ww1.sinaimg.cn/large/0060lm7Tgw1f81lc9r1hij300x00u3y9.jpg" alt="汗"></p>
+<p><img src="http://ww2.sinaimg.cn/large/0060lm7Tgw1f81kg61muzj30gt0gs0us.jpg" alt="ruby"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？&quot;&gt;&lt;a href=&quot;#在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？&quot; class=&quot;headerlink&quot; title=&quot;在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？&quot;&gt;&lt;/a&gt;在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？&lt;/h2&gt;&lt;p&gt;我们来让智能的Python来告诉我们一下
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+    
+      <category term="joke" scheme="http://cybors.github.io/tags/joke/"/>
+    
+  </entry>
   
   <entry>
     <title>Googlemirror</title>
@@ -173,9 +208,9 @@
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="Android" scheme="http://cybors.github.io/tags/Android/"/>
-    
       <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+    
+      <category term="Android" scheme="http://cybors.github.io/tags/Android/"/>
     
   </entry>
   
@@ -200,9 +235,9 @@
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
-    
       <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
     
   </entry>
   
@@ -274,9 +309,9 @@
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
-    
       <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
     
   </entry>
   
