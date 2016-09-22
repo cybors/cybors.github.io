@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <!-- Html Head Tag-->
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Royalive">
+  <!-- Open Graph Data -->
+  <meta property="og:title" content="old-string-formatting"/>
+  <meta property="og:description" content="Royalive" />
+  <meta property="og:site_name" content="诸神之黄昏"/>
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="http://cybors.github.ioundefined"/>
+  
+    <link rel="alternate" href="/atom.xml" title="诸神之黄昏" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <!-- Site Title -->
+  <title>诸神之黄昏</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  
+  <link rel="stylesheet" href="/css/style.light.css">
+
+  <!-- Google Analytics -->
+  
+
+</head>
+
+  <body>
+    <!-- Page Header -->
+
+
+<header class="site-header header-background" style="background-image: url(/img/default-banner-dark.jpg)">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-title with-background-image">
+          <p class="title">old-string-formatting</p>
+          <p class="subtitle"></p>
+        </div>
+        <div class="site-menu with-background-image">
+          <ul>
+            
+              <li>
+                <a href="/">
+                  
+                  Home
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  
+                  Archives
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories">
+                  
+                  Categories
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/tags">
+                  
+                  Tags
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://github.com/cybors">
+                  
+                  Github
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="mailto:reg4com@163.com">
+                  
+                  Email
+                  
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<article>
+  <div class="container typo">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-info text-muted">
+          
+            <!-- Author -->
+            <span class="author info">By Royalive</span>
+          
+          <!-- Date -->
+          <span class="date-time info">On
+            <span class="date">2016-09-22</span>
+            <span class="time">13:49:18</span>
+          </span>
+          
+          <!--  Categories  -->
+            <span class="categories info">Under 
+
+<a href="/categories/work/">work</a>
+</span>
+          
+        </div>
+        <!-- Tags -->
+        
+          <div class="post-tags text-muted">
+            Tags: 
+
+<a class="tag" href="/tags/Python/">#Python</a> <a class="tag" href="/tags/Technology/">#Technology</a>
+
+
+          </div>
+        
+        <!-- Post Main Content -->
+        <div class="post-content">
+          <h2 id="旧式字符串格式化"><a href="#旧式字符串格式化" class="headerlink" title="旧式字符串格式化"></a>旧式字符串格式化</h2><p>%操作符可以实现字符串格式化。它将左侧的参数作为类似sprintf()式的格式化字符串，而将右侧的代入，然后返回格式化后的字符串。<a id="more"></a></p>
+<p>for example:</p>
+<figure class="highlight plain"><figcaption><span>math</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt;&gt;&gt;print(&apos;The value of PI is approximately %5.3f.&apos; %math.pi)</div><div class="line">The value of PI is approximately 3.142</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">因为目前的趋势很多人开始学习Python的人都是学Python3.5 ，但仍有大量企业使用Python2.7，很多的第三方库对version3的版本没有支持。</div><div class="line"></div><div class="line">新的字符串格式化 str.format(),将会替代旧式的%</div><div class="line"></div><div class="line">For example.</div><div class="line"></div><div class="line">```python</div><div class="line">&apos;The sum of 1 + 2 is 3&apos;</div></pre></td></tr></table></figure>
+<p>str.format_map(mapping)</p>
+<figure class="highlight plain"><figcaption><span>default(dict):</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">      def __missing__(self,key):</div><div class="line">          return key</div><div class="line">          </div><div class="line">  &apos;&#123;name&#125; was born in &#123;country&#125;&apos;.format_map(default(name=&apos;Guido&apos;))</div><div class="line">&apos;Guido war borin in country&apos;</div></pre></td></tr></table></figure>
+<p>str.index(sub[,start[,end]]) </p>
+<p>Like find(),but raise ValueError when the substring is not found.</p>
+<p>区别与find(),find的结果为False时返回-1，index()的查询值如果不在str中，则会报错。</p>
+<p><code>changxufeng.find(&#39;y&#39;)//return -1</code></p>
+<p><code>changxufeng.index(&#39;y&#39;)// ValueError:substring not found</code></p>
+<p>str.isalnum()</p>
+<p>​    Return true if all characters in the string are alphanumeric and there is at least one character,false otherwise. A character c is alphanumeric if one of the following returns True: c.isalpha(), c.isdecimal(),  c.isdigit(), or c.isnumeric().</p>
+<p>如果都是字母和数字时候，return True, else return False.</p>
+<p>str.isalpha()</p>
+<p>​    Return true if all characters in the string are alphabetic and there is at least one character, false otherwise.Alphabetic characters are those characters defined in the Unicode character database as “Letter”,ie.e., those with general category property being one of “Lm”,”Lt”, “Lu”,”Ll” or “Lo” .Note that this is different from the “Alphabetic” propertty defined in the Unicode Standard.</p>
+<p>判断str是否都是数字</p>
+<p>str.isdecimal()</p>
+<p>​    Return true if all characters in the string are <strong>decimal</strong> characters and there is at least one character,false otherwise.Decimal characters are those from general catefory “Nd”. This category includes digit characters,and all characters that that can be used to form decimal-radix numbers,e.g. U+0660,ARABIC-INDIC DIGIT ZERO.</p>
+<p>判断str是否是十进制数。</p>
+<p>str.lstrip([<em>chars</em>])</p>
+<p>Return a copy of the string with leading characters removed. The <em>chars</em> argument is a string specifying the set of characters to be removed. If omitted or<code>None</code>, the <em>chars</em> argument defaults to removing whitespace. The <em>chars</em> argument is not a prefix; rather, all combinations of its values are stripped:</p>
+<p><code>&#39;  changxufeng&#39;.lstrip()</code>\当argu为空是，返回结果为去掉str前面的空格。不影响原来str的值，只是一份copy</p>
+<p><code>&#39;changxufeng&#39;.lstrip(chang)</code>\return ‘xufeng’</p>
+<p>如果去掉首位的空格可以使用str.strip()</p>
+<p><code>&#39;changxufeng&#39;.rstrip(&#39;xufeng&#39;)</code>\return ‘cha’</p>
+<p>str.title()</p>
+<p>​    Return a titlecased version of the string where words start with an uppercase character and the remaining characters are lowercase.</p>
+<p>​    The algorithm uses a simple language-independent definition of a word as groups of consecutive letters. The definition works in many contexts but it means that apostrophes in contractions and possessives form word boundaries, which may not be the desired result:</p>
+<p>string中首字母大写。</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+    <!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <p class="copyright text-muted">
+          Theme By <a target="_blank" href="https://github.com/cybors">Roy.</a>
+          Inspired By <a target="_blank" href="https://icybors.github.com">Cybers Blog.</a>
+        <p class="copyright text-muted">
+          Powered By <a target="_blank" href="https://hexo.io/">Hexo.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- After Footer Scripts -->
+<script src="/js/highlight.pack.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var codeBlocks = Array.prototype.slice.call(document.getElementsByTagName('pre'))
+    codeBlocks.forEach(function(block, index) {
+      hljs.highlightBlock(block);
+    });
+  });
+</script>
+
+  </body>
+</html>
+
