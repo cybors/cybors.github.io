@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cybors.github.io/"/>
-  <updated>2016-09-22T05:44:14.000Z</updated>
+  <updated>2016-09-24T16:21:32.000Z</updated>
   <id>http://cybors.github.io/</id>
   
   <author>
@@ -14,6 +14,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ubuntu</title>
+    <link href="http://cybors.github.io/2016/09/25/Ubuntu/"/>
+    <id>http://cybors.github.io/2016/09/25/Ubuntu/</id>
+    <published>2016-09-24T16:07:08.000Z</published>
+    <updated>2016-09-24T16:21:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Ubuntu-16-04-LTS"><a href="#Ubuntu-16-04-LTS" class="headerlink" title="Ubuntu 16.04 LTS"></a>Ubuntu 16.04 LTS</h2><p>前几天心血来潮看到都在说 Elementary 这个Ubuntu的分支是最美的。于是趁着有点闲空，就做了个启动盘，Elementary可以正确识别之前安装的Ubuntu，然后就执行了覆盖安装。<a id="more"></a><br>   Elementary确实有着独到的美感，有点像MAC的感觉，但是很多的软件都是非常的不常见，有点差异化发展的意思。<br>   但是并没有Ubuntu好用，遂决定再回到Ubuntu的环境。</p>
+<p>   说起Ubuntu，这要追溯到2008年，当时Ubuntu为了推广，在网上发布了免费申请Ubuntu的安装光盘的活动，立马就申请了（32bit和64bit各一份），暑假之前申请，历经2个多月的大学暑假，大概是开学一个多月后，收到学校邮局的通知，当时因为地址填写的是英文，据邮局的工作人员说有三四个老师轮番翻译了一边才正确投递。</p>
+<p>   拿到手的第一时间就感觉好兴奋，当时就被Ubuntu的人文情感所迷倒，人生的第一份来自地球另一端的快件。还附赠了logo贴纸，至今我都留着没舍得乱贴。封面设计非常简单，四个来自不同国家的年轻人躺在草地上，就这样的简单意境，对我对IT的认知产生了新的影响。</p>
+<p>   Canonical 在今年的4月发布了16.04 LTS（Xenial Xerus）发布说这是一个长期支持版本，官方会提供长达5年的Techinical Support，也就是大概可以支持到2021年4月左右，这也是决定要重新安装回到Ubuntu的一个原因。</p>
+<p>   附上下载地址：<br>   Ubuntu 16.04 LTS官方镜像下载：</p>
+<p>32位：<a href="http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-i386.iso" target="_blank" rel="external">http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-i386.iso</a></p>
+<p>64位：<a href="http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso" target="_blank" rel="external">http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">关于如何安装就不在这里赘述了，网上可以GG到一大片，恩想要GG的可以看Google Mirror这篇文章。</div></pre></td></tr></table></figure>
+<p>关于SUBLIME TEXT3的中文输入问题</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">因为安装这个Linux主要是为了Python的开发环境，所以围绕着Python做了环境部署。</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">编辑及IDE环境使用 Pycharm VIM Gedit atom Sublime Text3</div><div class="line">其中，在SublimeText3 解决无法使用中文的问题，网上的答案几乎出自同一个人，但是并不好用，需要生成共用的配置文件等。其实在github上有个更为简单的解决方法。</div></pre></td></tr></table></figure>
+<p><a href="https://github.com/lyfeyaj/sublime-text-imfix" target="_blank" rel="external">github/lyfeyaj</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">Step to use this repo</div><div class="line">1.Update and then upgrade your system to the newest</div><div class="line">`sudo apt-get updat &amp;&amp; sudo apt-get updrade`</div><div class="line">2.Clone this repo in your local directory:</div><div class="line">`git clone https://github.com/lyfeyaj/sublime-text-imfix.git`</div><div class="line">3.Change your current directory to sublime-text-imfix:</div><div class="line">`cd sublime-text-imfix`</div><div class="line">4.Run the below script:</div><div class="line">`./sublim-imfix`</div><div class="line">5.Done! Re-login Ubuntu.And then you gan enjoy using Sublime Text3!</div></pre></td></tr></table></figure>
+<p> 关于有道词典的安装.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">有道词典提供Linux的deb安装包，但是下载了Ubuntu 64bit的安装包无法正常安装，使用install -f解决依赖包的问题也无法正常解决，看到页面置顶的是Deepin的deb包尝试了一下 下载后直接一步安装成功～</div></pre></td></tr></table></figure>
+<p> 关于Pycharm</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">现在来看使用Pycharm的人越来越多，而且Pycharm也相对智能人性一些，在创建Project的时候提供选择语言环境，是Python2还是Python3，有点类似使用Python自己的虚拟环境的感觉。</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">注意 2016版本使用网上的 Lisence server已经失效，不过还是侥幸找到一枚可用的激活码。</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Ubuntu-16-04-LTS&quot;&gt;&lt;a href=&quot;#Ubuntu-16-04-LTS&quot; class=&quot;headerlink&quot; title=&quot;Ubuntu 16.04 LTS&quot;&gt;&lt;/a&gt;Ubuntu 16.04 LTS&lt;/h2&gt;&lt;p&gt;前几天心血来潮看到都在说 Elementary 这个Ubuntu的分支是最美的。于是趁着有点闲空，就做了个启动盘，Elementary可以正确识别之前安装的Ubuntu，然后就执行了覆盖安装。
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="linux" scheme="http://cybors.github.io/tags/linux/"/>
+    
+      <category term="ubuntu" scheme="http://cybors.github.io/tags/ubuntu/"/>
+    
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>old-string-formatting</title>
