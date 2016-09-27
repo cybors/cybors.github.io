@@ -421,33 +421,6 @@
   </entry>
   
   <entry>
-    <title>BeautifulSoup 进阶使用</title>
-    <link href="http://cybors.github.io/2016/09/08/BeautifulSoup/"/>
-    <id>http://cybors.github.io/2016/09/08/BeautifulSoup/</id>
-    <published>2016-09-08T10:19:31.000Z</published>
-    <updated>2016-09-13T17:08:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
-<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
-<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
-    
-      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
-    
-  </entry>
-  
-  <entry>
     <title>pyhon数据分析练手</title>
     <link href="http://cybors.github.io/2016/09/08/pytho-ex/"/>
     <id>http://cybors.github.io/2016/09/08/pytho-ex/</id>
@@ -477,6 +450,33 @@
     
       &lt;p&gt;最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是&lt;strong&gt;涨疯&lt;/strong&gt;了。&lt;/p&gt;
 &lt;p&gt;刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BeautifulSoup 进阶使用</title>
+    <link href="http://cybors.github.io/2016/09/08/BeautifulSoup/"/>
+    <id>http://cybors.github.io/2016/09/08/BeautifulSoup/</id>
+    <published>2016-09-08T10:19:31.000Z</published>
+    <updated>2016-09-13T17:08:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
+<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
+<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
     
     </summary>
     
