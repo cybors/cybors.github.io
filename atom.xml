@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cybors.github.io/"/>
-  <updated>2016-09-24T16:21:32.000Z</updated>
+  <updated>2016-09-27T01:38:34.000Z</updated>
   <id>http://cybors.github.io/</id>
   
   <author>
@@ -14,6 +14,67 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>map_reduce</title>
+    <link href="http://cybors.github.io/2016/09/26/map-reduce/"/>
+    <id>http://cybors.github.io/2016/09/26/map-reduce/</id>
+    <published>2016-09-25T18:37:15.000Z</published>
+    <updated>2016-09-27T01:38:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>MapReduce<br>在Python里内建了Map和Reduce 函数，一开始怎么也看不明白，看图识也不明白。<br>直到看了”MapReduce:Simplified Data Processing on Large Clusters” <a href="https://www.cs.utexas.edu/~pingali/CS395T/2012sp/lectures/MR-nikhil-panpalia.pdf" target="_blank" rel="external">link</a>（面向大型集群的简化数据处理）这个论文来自GOOGLE.&lt;–more–&gt;<br><img src="http://www.liaoxuefeng.com/files/attachments/0013879622109990efbf9d781704b02994ba96765595f56000/0" alt="MAP"><br>Map(映射)Reduce(化简)<br>MapRedce 既是一种编程模型，也是一种与之关联的、用于处理和产生大数据集的实现。用户要特化一个map程序去处理key/value对，并产生中间key/value对的集合，以及一个Reduce程序去合并有着相同key的所有中间key/value对。</p>
+<p>用这种函数风格写出的程序自动就拥有了在一个大的PC机集群上并执行的能力。运行时系统会负责细节：切分输入数据，在一组机器上调度执行程序，处理机器错误，以及管理所需的机器间通信。这允许不具备任何并行和分布式系统经验的程序员也能轻松地利用一个大型分布式系统的资源。<br>我们的MapReduce实现运行在一个大型PC机集群上，且具有很好的扩展性：一个典型的MapReduce作业运行在Google的集群上。<br><strong>编程模型</strong><br>计算过程就是输入一组key/value对，再生成一组key/value对。MapReduce库的使用者用两个函数来表示这个过程：map和reduce。</p>
+<p>map由使用者编写,使用一个输入key/value对，生成一组中间key/value对。MapReduce库将有着相同中间Key I中间的value都组合在一起，再传给reduce函数。<br>reduce也由使用者编写，它接受一个中间Key I 和一组与I对应的value.他将这些value合并为一个可能更小的value集合。通常每个reduce调用只产生0或1输出value.中间value是通过一个迭代器提供给reduce函数的。这允许我们操作那些因为大到找不到连续存放的内存而使用链表的value集合。</p>
+<p>Example:</p>
+<figure class="highlight plain"><figcaption><span>key,String value):</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">       //key:文档名</div><div class="line">       //value：文档内容</div><div class="line">       for each word w in value:</div><div class="line">           EmitIntermediate(w,&quot;1&quot;);</div><div class="line">reduce(Stringkey,Iterator values):</div><div class="line">    //key:一个单词</div><div class="line">    //value:计数值列表</div><div class="line">    int result = 0;</div><div class="line">    for each v in values:</div><div class="line">        result += ParseInt(v);</div><div class="line">    Emit(AsString(result));</div></pre></td></tr></table></figure>
+<p>map函数将每个单词与出现次数一同输出（↑例子中鸡蛋的那输出“1”）reduce函数将针对某个特定词输出的次数都合并相加。</p>
+<p>另外，使用者要写代码填充一个符合MapReduce规格的对象，内容包括输入和输出文件的名字，以及可选的调节参数。之后使用者调用MapReduce函数，将指定到对象传进去。用户代码会与MapReduce库链接到一起。</p>
+<p><strong>实现</strong><br>许多不同的MapReduce的实现都是可行的。选择哪一个要取决于环境。例如，一种实现可能适合于小型的共享内存机器，一种实现可能适合于大型的NUMA多处理器机器，而另一种则适合于更大型的联网机器集。</p>
+<p>本部分描述的实现主要面向Google内部广泛使用的计算环境：大型的商用PC机集群，互相之间用交换式以太网连接。我们的环境是：</p>
+<p>主要使用的机器为双核X86处理器，运行Linux系统，每台机器的内存从2GB到4GB不等。</p>
+<p>使用的都是商用网络硬件设备——在机器层面上通常从100Mbps到1Gbps不等，但平均起来要比总带宽的一半少很多。</p>
+<p>集群中拥有数百或数千台机器，因此机器错误经常出现。</p>
+<p>每台机器都使用廉价的IDE硬盘来提供存储功能。我们使用一种内部开发的分布式文件系统来管理这些磁盘上的数据。这个文件系统通过复制的方法在不可靠的硬件之上提供了实用性与可靠性。</p>
+<p>用户向一个调度系统提交作业。每个作业包括了一个任务集，会由调度器调度到集群内可用的一组机器上。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;MapReduce&lt;br&gt;在Python里内建了Map和Reduce 函数，一开始怎么也看不明白，看图识也不明白。&lt;br&gt;直到看了”MapReduce:Simplified Data Processing on Large Clusters” &lt;a href=&quot;https:
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
+    
+      <category term="technology" scheme="http://cybors.github.io/tags/technology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu_download</title>
+    <link href="http://cybors.github.io/2016/09/25/Ubuntu-download/"/>
+    <id>http://cybors.github.io/2016/09/25/Ubuntu-download/</id>
+    <published>2016-09-24T17:52:31.000Z</published>
+    <updated>2016-09-27T01:34:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Ubuntu下的多线程下载工具<br>Uget和aria2下载神器，类似win下的迅雷 旋风等工具<br><a id="more"></a><br><strong>Install</strong><br>1.添加依赖<br><code>sudo add-apt-repository ppa:plushuang-tw/uget-stable</code><br><code>sudo add-apt-repository ppa:t-tujikawa/ppa</code><br>2.更新依赖<br><code>sudo apt-get update</code><br>3.安装uget 、aria2<br><code>sudo apt-get install uget aria2</code><br>4.配置<br>将最大连接数设置为16<br>uget—All Category—右键—Properties—Default for new download1—Max Connections—16<br>开启aria插件<br>uget—右键—settings—Plug-in—Plug-in matching order—aria2<br>同时，下方的arguments: –enable-rpc=true</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Ubuntu下的多线程下载工具&lt;br&gt;Uget和aria2下载神器，类似win下的迅雷 旋风等工具&lt;br&gt;
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="linux" scheme="http://cybors.github.io/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Ubuntu</title>
@@ -53,9 +114,42 @@
     
       <category term="linux" scheme="http://cybors.github.io/tags/linux/"/>
     
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
       <category term="ubuntu" scheme="http://cybors.github.io/tags/ubuntu/"/>
     
-      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+  </entry>
+  
+  <entry>
+    <title>netease_musicbox</title>
+    <link href="http://cybors.github.io/2016/09/24/netease-musicbox/"/>
+    <id>http://cybors.github.io/2016/09/24/netease-musicbox/</id>
+    <published>2016-09-23T18:35:30.000Z</published>
+    <updated>2016-09-27T01:36:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>网易云音乐</p>
+<p>在Ubuntu下如何听高品质的音乐，虾米还是网易云，无意间看到了<a href="https://github.com/kigawas/musicbox" target="_blank" rel="external">kigawas</a> 在安装过程中遇到很多问题，并不在作者的FAQ里面<br>遇到的报错，我的Py环境py2和py3里面都没有安装future Module，在pip install future 的环节中反复报错有好多的依赖包没有安装，依次安装后成功安装。</p>
+<p>键盘快捷键</p>
+<p>J    Down    下移<br>K    Up    上移<br>H    Back    后退<br>L    Forword    前进<br>U    Prev page    上一页<br>D    Next page    下一页<br>F    Search    快速搜索<br>[    Prev song    上一曲<br>]    Next song    下一曲<br>=    Volume +    音量增加</p>
+<ul>
+<li>Volume -    音量减少<br>SpacePlay/Pause    播放/暂停<br>?Shuffle    手气不错<br>MMenu    主菜单<br>PPresent/History    当前/历史播放列表<br>IMusic Info    当前音乐信息<br>⇧+PPlaying Mode    播放模式切换<br>AAdd    添加曲目到打碟<br>ZDJ list    打碟列表<br>SStar    添加到收藏<br>CCollection    收藏列表<br>RRemove    删除当前条目<br>⇧+JMove Down    向下移动当前项目<br>⇧+KMove Up    向上移动当前项目<br>⇧+CCache    缓存歌曲到本地<br>,Like    喜爱<br>.Trash FM    删除 FM<br>/Next FM    下一FM<br>QQuit    退出<br>WQuit&amp;Clear    退出并清除用户信息</li>
+</ul>
+<p>Ubuntu安装方法<br><code>sudo pip install NetEase-MusicBox</code><br><code>sudo apt-get install mpg123</code></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;网易云音乐&lt;/p&gt;
+&lt;p&gt;在Ubuntu下如何听高品质的音乐，虾米还是网易云，无意间看到了&lt;a href=&quot;https://github.com/kigawas/musicbox&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;kigawas&lt;/a&gt; 在安装
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="linux" scheme="http://cybors.github.io/tags/linux/"/>
+    
+      <category term="tool" scheme="http://cybors.github.io/tags/tool/"/>
     
   </entry>
   
@@ -177,54 +271,12 @@
     <link href="http://cybors.github.io/2016/09/14/Googlemirror/"/>
     <id>http://cybors.github.io/2016/09/14/Googlemirror/</id>
     <published>2016-09-14T04:04:42.000Z</published>
-    <updated>2016-09-14T09:37:14.000Z</updated>
+    <updated>2016-09-25T06:44:40.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Google-Mirror"><a href="#Google-Mirror" class="headerlink" title="Google Mirror"></a>Google Mirror</h1><p>实在是不喜欢百度&amp;百不到正确的答案，以下是搜集的谷歌镜像网址。<a id="more"></a></p>
-<blockquote>
-<ul>
-<li>: <a href="https://g.inspire-energy.com.cn/" target="_blank" rel="external">https://g.inspire-energy.com.cn/</a></li>
-<li>: <a href="https://letsgg.tk/" target="_blank" rel="external">https://letsgg.tk/</a></li>
-<li>: <a href="https://www.laiguge.com/" target="_blank" rel="external">https://www.laiguge.com/</a></li>
-<li>: <a href="http://45.78.38.197/" target="_blank" rel="external">http://45.78.38.197/</a></li>
-<li>: <a href="https://fq.yanke.info/" target="_blank" rel="external">https://fq.yanke.info/</a></li>
-<li>: <a href="https://g.glv.io/" target="_blank" rel="external">https://g.glv.io/</a></li>
-<li>: <a href="https://g.libnull.com/" target="_blank" rel="external">https://g.libnull.com/</a></li>
-<li>: <a href="http://www.jumper.site/" target="_blank" rel="external">http://www.jumper.site/</a></li>
-<li>: <a href="https://www.guge.xxx/" target="_blank" rel="external">https://www.guge.xxx/</a></li>
-<li>: <a href="http://198.12.101.102/" target="_blank" rel="external">http://198.12.101.102/</a></li>
-<li>: <a href="https://g.namaho.com/" target="_blank" rel="external">https://g.namaho.com/</a></li>
-<li>: <a href="http://www.51google.pw/" target="_blank" rel="external">http://www.51google.pw/</a></li>
-<li>: <a href="http://www.nginxgoogle.com/" target="_blank" rel="external">http://www.nginxgoogle.com/</a></li>
-<li>: <a href="https://xixico.com/" target="_blank" rel="external">https://xixico.com/</a></li>
-<li>: <a href="http://ss2.prozhi.com/" target="_blank" rel="external">http://ss2.prozhi.com/</a></li>
-<li>: <a href="https://g.sxisa.org/" target="_blank" rel="external">https://g.sxisa.org/</a></li>
-<li>: <a href="https://go.coolnull.com/" target="_blank" rel="external">https://go.coolnull.com/</a></li>
-<li>: <a href="http://bc60042.byethost13.com/" target="_blank" rel="external">http://bc60042.byethost13.com/</a></li>
-<li>: <a href="https://g.v2fr.ml/" target="_blank" rel="external">https://g.v2fr.ml/</a></li>
-<li>: <a href="http://s0.chenjx.cn/" target="_blank" rel="external">http://s0.chenjx.cn/</a></li>
-<li>: <a href="http://g.chenjx.cn/" target="_blank" rel="external">http://g.chenjx.cn/</a></li>
-<li>: <a href="https://cannotfind.me/" target="_blank" rel="external">https://cannotfind.me/</a></li>
-<li>: <a href="https://www.xiasos.com/" target="_blank" rel="external">https://www.xiasos.com/</a></li>
-<li>: <a href="https://www.onenew.net/" target="_blank" rel="external">https://www.onenew.net/</a></li>
-<li>: <a href="https://g.ljqian.me/" target="_blank" rel="external">https://g.ljqian.me/</a></li>
-<li>: <a href="https://aigg.info/" target="_blank" rel="external">https://aigg.info/</a></li>
-</ul>
-<p>备用镜像：</p>
-<ul>
-<li>: <a href="https://xueshu.glgoo.org/" target="_blank" rel="external">https://xueshu.glgoo.org/</a></li>
-<li>: <a href="https://www.ytso.cc/" target="_blank" rel="external">https://www.ytso.cc/</a></li>
-<li>: <a href="https://g.jikewenku.cn/" target="_blank" rel="external">https://g.jikewenku.cn/</a></li>
-<li>: <a href="http://guge.suanfazu.com/" target="_blank" rel="external">http://guge.suanfazu.com/</a></li>
-<li>: <a href="http://kfd.me/" target="_blank" rel="external">http://kfd.me/</a></li>
-<li>: <a href="http://gc.ihuan.me/" target="_blank" rel="external">http://gc.ihuan.me/</a></li>
-<li>: <a href="http://scholar.hntvchina.com/" target="_blank" rel="external">http://scholar.hntvchina.com/</a></li>
-<li>: <a href="http://glgoo.jsylhs.com/" target="_blank" rel="external">http://glgoo.jsylhs.com/</a></li>
-<li>: <a href="https://julianhuang.cc/" target="_blank" rel="external">https://julianhuang.cc/</a></li>
-<li>: <a href="https://ggso.co/" target="_blank" rel="external">https://ggso.co/</a></li>
-<li>: <a href="https://ggso.me/" target="_blank" rel="external">https://ggso.me/</a></li>
-<li>: <a href="https://ggso.in/" target="_blank" rel="external">https://ggso.in/</a></li>
-</ul>
-</blockquote>
+    <content type="html"><![CDATA[<h1 id="Google-Mirror"><a href="#Google-Mirror" class="headerlink" title="Google Mirror"></a>Google Mirror</h1><p>实在是不喜欢百度&amp;百不到正确的答案，以下是搜集的谷歌镜像网址。<a id="more"></a><br><img src="http://google.adwiki.cn/logo2.jpg" alt="Google-Mirror"><br>9月23日更新<br>原版镜像：</p>
+<p><a href="http://so.biochen.com/" target="_blank" rel="external">http://so.biochen.com/</a><br><a href="http://baidusb.tk/" target="_blank" rel="external">http://baidusb.tk/</a><br><a href="https://g.inspire-energy.com.cn/" target="_blank" rel="external">https://g.inspire-energy.com.cn/</a><br><a href="https://g.starmoe.xyz/" target="_blank" rel="external">https://g.starmoe.xyz/</a><br><a href="https://letsgg.tk/" target="_blank" rel="external">https://letsgg.tk/</a><br><a href="https://www.laiguge.com/" target="_blank" rel="external">https://www.laiguge.com/</a><br><a href="http://lili.ga/" target="_blank" rel="external">http://lili.ga/</a><br><a href="http://45.78.38.197/" target="_blank" rel="external">http://45.78.38.197/</a><br><a href="https://fq.yanke.info/" target="_blank" rel="external">https://fq.yanke.info/</a><br><a href="https://g.glv.io/" target="_blank" rel="external">https://g.glv.io/</a><br><a href="https://g.libnull.com/" target="_blank" rel="external">https://g.libnull.com/</a><br><a href="http://www.jumper.site/" target="_blank" rel="external">http://www.jumper.site/</a><br><a href="https://www.guge.xxx/" target="_blank" rel="external">https://www.guge.xxx/</a><br><a href="http://198.12.101.102/" target="_blank" rel="external">http://198.12.101.102/</a><br><a href="http://www.qwspq.com/" target="_blank" rel="external">http://www.qwspq.com/</a><br><a href="https://g.namaho.com/" target="_blank" rel="external">https://g.namaho.com/</a><br><a href="http://www.51google.pw/" target="_blank" rel="external">http://www.51google.pw/</a><br><a href="http://www.nginxgoogle.com/" target="_blank" rel="external">http://www.nginxgoogle.com/</a><br><a href="https://xixico.com/" target="_blank" rel="external">https://xixico.com/</a><br><a href="http://ss2.prozhi.com/" target="_blank" rel="external">http://ss2.prozhi.com/</a><br><a href="https://g.sxisa.org/" target="_blank" rel="external">https://g.sxisa.org/</a><br><a href="https://go.coolnull.com/" target="_blank" rel="external">https://go.coolnull.com/</a><br><a href="http://bc60042.byethost13.com/" target="_blank" rel="external">http://bc60042.byethost13.com/</a><br><a href="https://g.v2fr.ml/" target="_blank" rel="external">https://g.v2fr.ml/</a><br><a href="http://s0.chenjx.cn/" target="_blank" rel="external">http://s0.chenjx.cn/</a><br><a href="http://g.chenjx.cn/" target="_blank" rel="external">http://g.chenjx.cn/</a><br><a href="https://cannotfind.me/" target="_blank" rel="external">https://cannotfind.me/</a><br><a href="https://www.xiasos.com/" target="_blank" rel="external">https://www.xiasos.com/</a><br><a href="https://www.onenew.net/" target="_blank" rel="external">https://www.onenew.net/</a><br><a href="https://g.ljqian.me/" target="_blank" rel="external">https://g.ljqian.me/</a><br><a href="https://aigg.info/" target="_blank" rel="external">https://aigg.info/</a></p>
+<h2 id="http-ljy2345-esy-es"><a href="#http-ljy2345-esy-es" class="headerlink" title="http://ljy2345.esy.es/"></a><a href="http://ljy2345.esy.es/" target="_blank" rel="external">http://ljy2345.esy.es/</a></h2><p>备用镜像：</p>
+<p><a href="http://glgoo.jsylhs.com/" target="_blank" rel="external">http://glgoo.jsylhs.com/</a><br><a href="https://xueshu.glgoo.org/" target="_blank" rel="external">https://xueshu.glgoo.org/</a><br><a href="https://julianhuang.cc/" target="_blank" rel="external">https://julianhuang.cc/</a><br><a href="https://www.ytso.cc/" target="_blank" rel="external">https://www.ytso.cc/</a><br><a href="https://g.jikewenku.cn/" target="_blank" rel="external">https://g.jikewenku.cn/</a><br><a href="http://guge.suanfazu.com/" target="_blank" rel="external">http://guge.suanfazu.com/</a><br><a href="http://kfd.me/" target="_blank" rel="external">http://kfd.me/</a><br><a href="http://gc.ihuan.me/" target="_blank" rel="external">http://gc.ihuan.me/</a><br><a href="http://scholar.hntvchina.com/" target="_blank" rel="external">http://scholar.hntvchina.com/</a><br><a href="https://ggso.co/" target="_blank" rel="external">https://ggso.co/</a><br><a href="https://ggso.me/" target="_blank" rel="external">https://ggso.me/</a><br><a href="https://ggso.in/" target="_blank" rel="external">https://ggso.in/</a><br><a href="http://ggso.gq/" target="_blank" rel="external">http://ggso.gq/</a></p>
 <p>参考<a href="http://google.adwiki.cn" target="_blank" rel="external">adwiki</a></p>
 ]]></content>
     
@@ -337,33 +389,6 @@
   </entry>
   
   <entry>
-    <title>BeautifulSoup 进阶使用</title>
-    <link href="http://cybors.github.io/2016/09/08/BeautifulSoup/"/>
-    <id>http://cybors.github.io/2016/09/08/BeautifulSoup/</id>
-    <published>2016-09-08T10:19:31.000Z</published>
-    <updated>2016-09-13T17:08:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
-<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
-<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
-    
-      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
-    
-  </entry>
-  
-  <entry>
     <title>国事三两则</title>
     <link href="http://cybors.github.io/2016/09/08/affairs/"/>
     <id>http://cybors.github.io/2016/09/08/affairs/</id>
@@ -392,6 +417,33 @@
     
     
       <category term="alive" scheme="http://cybors.github.io/tags/alive/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BeautifulSoup 进阶使用</title>
+    <link href="http://cybors.github.io/2016/09/08/BeautifulSoup/"/>
+    <id>http://cybors.github.io/2016/09/08/BeautifulSoup/</id>
+    <published>2016-09-08T10:19:31.000Z</published>
+    <updated>2016-09-13T17:08:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
+<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
+<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
     
   </entry>
   

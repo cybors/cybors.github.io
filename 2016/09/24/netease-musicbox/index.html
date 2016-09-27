@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="Royalive">
   <!-- Open Graph Data -->
-  <meta property="og:title" content="BeautifulSoup 进阶使用"/>
+  <meta property="og:title" content="netease_musicbox"/>
   <meta property="og:description" content="Royalive" />
   <meta property="og:site_name" content="诸神之黄昏"/>
   <meta property="og:type" content="article" />
@@ -43,7 +43,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-title with-background-image">
-          <p class="title">BeautifulSoup 进阶使用</p>
+          <p class="title">netease_musicbox</p>
           <p class="subtitle"></p>
         </div>
         <div class="site-menu with-background-image">
@@ -116,7 +116,7 @@
           
           <!-- Date -->
           <span class="date-time info">On
-            <span class="date">2016-09-08</span>
+            <span class="date">2016-09-24</span>
             <span class="time">09:39:02</span>
           </span>
           
@@ -132,16 +132,21 @@
           <div class="post-tags text-muted">
             Tags: 
 
-<a class="tag" href="/tags/Python/">#Python</a> <a class="tag" href="/tags/Technology/">#Technology</a>
+<a class="tag" href="/tags/linux/">#linux</a> <a class="tag" href="/tags/tool/">#tool</a>
 
 
           </div>
         
         <!-- Post Main Content -->
         <div class="post-content">
-          <h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
-<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
-<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
+          <p>网易云音乐</p>
+<p>在Ubuntu下如何听高品质的音乐，虾米还是网易云，无意间看到了<a href="https://github.com/kigawas/musicbox" target="_blank" rel="external">kigawas</a> 在安装过程中遇到很多问题，并不在作者的FAQ里面<br>遇到的报错，我的Py环境py2和py3里面都没有安装future Module，在pip install future 的环节中反复报错有好多的依赖包没有安装，依次安装后成功安装。</p>
+<p>键盘快捷键</p>
+<p>J    Down    下移<br>K    Up    上移<br>H    Back    后退<br>L    Forword    前进<br>U    Prev page    上一页<br>D    Next page    下一页<br>F    Search    快速搜索<br>[    Prev song    上一曲<br>]    Next song    下一曲<br>=    Volume +    音量增加</p>
+<ul>
+<li>Volume -    音量减少<br>SpacePlay/Pause    播放/暂停<br>?Shuffle    手气不错<br>MMenu    主菜单<br>PPresent/History    当前/历史播放列表<br>IMusic Info    当前音乐信息<br>⇧+PPlaying Mode    播放模式切换<br>AAdd    添加曲目到打碟<br>ZDJ list    打碟列表<br>SStar    添加到收藏<br>CCollection    收藏列表<br>RRemove    删除当前条目<br>⇧+JMove Down    向下移动当前项目<br>⇧+KMove Up    向上移动当前项目<br>⇧+CCache    缓存歌曲到本地<br>,Like    喜爱<br>.Trash FM    删除 FM<br>/Next FM    下一FM<br>QQuit    退出<br>WQuit&amp;Clear    退出并清除用户信息</li>
+</ul>
+<p>Ubuntu安装方法<br><code>sudo pip install NetEase-MusicBox</code><br><code>sudo apt-get install mpg123</code></p>
 
         </div>
       </div>
