@@ -117,7 +117,7 @@
           <!-- Date -->
           <span class="date-time info">On
             <span class="date">2016-09-26</span>
-            <span class="time">11:22:23</span>
+            <span class="time">19:28:05</span>
           </span>
           
           <!--  Categories  -->
@@ -139,7 +139,7 @@
         
         <!-- Post Main Content -->
         <div class="post-content">
-          <p>MapReduce<br>在Python里内建了Map和Reduce 函数，一开始怎么也看不明白，看图识也不明白。<br>直到看了”MapReduce:Simplified Data Processing on Large Clusters” <a href="https://www.cs.utexas.edu/~pingali/CS395T/2012sp/lectures/MR-nikhil-panpalia.pdf" target="_blank" rel="external">link</a>（面向大型集群的简化数据处理）这个论文来自GOOGLE.&lt;–more–&gt;<br><img src="http://www.liaoxuefeng.com/files/attachments/0013879622109990efbf9d781704b02994ba96765595f56000/0" alt="MAP"><br>Map(映射)Reduce(化简)<br>MapRedce 既是一种编程模型，也是一种与之关联的、用于处理和产生大数据集的实现。用户要特化一个map程序去处理key/value对，并产生中间key/value对的集合，以及一个Reduce程序去合并有着相同key的所有中间key/value对。</p>
+          <p>MapReduce<br>在Python里内建了Map和Reduce 函数，一开始怎么也看不明白，看图识也不明白。<br>直到看了”MapReduce:Simplified Data Processing on Large Clusters” <a href="https://www.cs.utexas.edu/~pingali/CS395T/2012sp/lectures/MR-nikhil-panpalia.pdf" target="_blank" rel="external">link</a>（面向大型集群的简化数据处理）这个论文来自GOOGLE.<a id="more"></a><br><img src="http://www.liaoxuefeng.com/files/attachments/0013879622109990efbf9d781704b02994ba96765595f56000/0" alt="MAP"><br>Map(映射)Reduce(化简)<br>MapRedce 既是一种编程模型，也是一种与之关联的、用于处理和产生大数据集的实现。用户要特化一个map程序去处理key/value对，并产生中间key/value对的集合，以及一个Reduce程序去合并有着相同key的所有中间key/value对。</p>
 <p>用这种函数风格写出的程序自动就拥有了在一个大的PC机集群上并执行的能力。运行时系统会负责细节：切分输入数据，在一组机器上调度执行程序，处理机器错误，以及管理所需的机器间通信。这允许不具备任何并行和分布式系统经验的程序员也能轻松地利用一个大型分布式系统的资源。<br>我们的MapReduce实现运行在一个大型PC机集群上，且具有很好的扩展性：一个典型的MapReduce作业运行在Google的集群上。<br><strong>编程模型</strong><br>计算过程就是输入一组key/value对，再生成一组key/value对。MapReduce库的使用者用两个函数来表示这个过程：map和reduce。</p>
 <p>map由使用者编写,使用一个输入key/value对，生成一组中间key/value对。MapReduce库将有着相同中间Key I中间的value都组合在一起，再传给reduce函数。<br>reduce也由使用者编写，它接受一个中间Key I 和一组与I对应的value.他将这些value合并为一个可能更小的value集合。通常每个reduce调用只产生0或1输出value.中间value是通过一个迭代器提供给reduce函数的。这允许我们操作那些因为大到找不到连续存放的内存而使用链表的value集合。</p>
 <p>Example:</p>
