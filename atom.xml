@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cybors.github.io/"/>
-  <updated>2016-09-27T11:27:38.000Z</updated>
+  <updated>2016-10-19T05:09:52.000Z</updated>
   <id>http://cybors.github.io/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最新科学上网方法</title>
+    <link href="http://cybors.github.io/2016/10/19/gfwgoagent/"/>
+    <id>http://cybors.github.io/2016/10/19/gfwgoagent/</id>
+    <published>2016-10-19T04:42:55.000Z</published>
+    <updated>2016-10-19T05:09:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>​    在goagent被–河蟹–后，选择科学上网除了购买VPN，没有好的方法了，而VPN也被河蟹后，连淘宝甚至国内的空间供应商也不敢公开的售卖VPN服务。</p>
+<p>​    如何科学上网成了一个不小的问题，比如你要解决一个计算机技术方面的问题，显然国内的度让你觉得这个问题真的没法解决。<a id="more"></a></p>
+<p>​    在掘金平台发现了XX-NET，发现可以重新启用Goagent.</p>
+<p>​    考虑到大家还没有科学上网的环境，把工具放到了我的百度网盘。</p>
+<p>​    下载链接：<a href="http://pan.baidu.com/s/1bpmRgcv" target="_blank" rel="external">百度云盘</a></p>
+<p>​    下载密码：b7e1</p>
+<p>​     如有问题可想我提问，或邮件。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;​    在goagent被–河蟹–后，选择科学上网除了购买VPN，没有好的方法了，而VPN也被河蟹后，连淘宝甚至国内的空间供应商也不敢公开的售卖VPN服务。&lt;/p&gt;
+&lt;p&gt;​    如何科学上网成了一个不小的问题，比如你要解决一个计算机技术方面的问题，显然国内的度让你觉得这个问题真的没法解决。
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="technology" scheme="http://cybors.github.io/tags/technology/"/>
+    
+  </entry>
   
   <entry>
     <title>python-summarization</title>
@@ -179,9 +209,9 @@
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
-    
       <category term="technology" scheme="http://cybors.github.io/tags/technology/"/>
+    
+      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
     
   </entry>
   
@@ -217,9 +247,9 @@
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
-    
       <category term="technology" scheme="http://cybors.github.io/tags/technology/"/>
+    
+      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
     
   </entry>
   
@@ -282,11 +312,11 @@
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
       <category term="linux" scheme="http://cybors.github.io/tags/linux/"/>
     
       <category term="ubuntu" scheme="http://cybors.github.io/tags/ubuntu/"/>
-    
-      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
     
   </entry>
   
@@ -552,27 +582,42 @@
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="Android" scheme="http://cybors.github.io/tags/Android/"/>
-    
       <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+    
+      <category term="Android" scheme="http://cybors.github.io/tags/Android/"/>
     
   </entry>
   
   <entry>
-    <title>BeautifulSoup 进阶使用</title>
-    <link href="http://cybors.github.io/2016/09/08/BeautifulSoup/"/>
-    <id>http://cybors.github.io/2016/09/08/BeautifulSoup/</id>
+    <title>pyhon数据分析练手</title>
+    <link href="http://cybors.github.io/2016/09/08/pytho-ex/"/>
+    <id>http://cybors.github.io/2016/09/08/pytho-ex/</id>
     <published>2016-09-08T10:19:31.000Z</published>
-    <updated>2016-09-13T17:08:30.000Z</updated>
+    <updated>2016-09-13T17:08:44.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
-<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
-<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
+    <content type="html"><![CDATA[<p>最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是<strong>涨疯</strong>了。</p>
+<p>刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。<a id="more"></a></p>
+<p>首先想了一下基本的逻辑，先从58同城爬取一下以区域划分的房源信息。</p>
+<p>1.首先使用Chrome调试工具分析出页面中的信息所在tag的位置，通过BeautifulSoup或正则re或lxml这三个Modules分析出信息。</p>
+<p>由于三个Modules掌握都不熟练所以这混合了这三种模块。</p>
+<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lceb33g6j20h00extcz.jpg" alt="python"></p>
+<p>通过输入可以选择不同的行政区进行数据的选择。</p>
+<p>只有数据还不够直观，通过地理位置的抓取和高德地图的逆解析得到房源信息的坐标，然后展示到地图上。嗯 就这么干…</p>
+<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lco2xme7j20gt0gsgog.jpg" alt="python-amp"></p>
+<p>在匹配数据的过程中，发现会被高德(阿里)的服务器拒绝，所以加了延时500ms。</p>
+<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lcu3g5qxj211y0kgwse.jpg" alt="python-data"></p>
+<p>爬取得到的房源数据</p>
+<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lcx3fbmlj20wx0g0wmj.jpg" alt="lat-python"></p>
+<p>你解析得到的坐标数据</p>
+<p>放到页面上，<a href="http://warm.pe.hu/xiaohong-house/alpha.html" target="_blank" rel="external">alpha_version</a> 可解析出房源所在位置附近的商圈。</p>
+<p>觉得有点丑，然后又有了第二个版本<a href="http://warm.pe.hu/xiaohong-house/2nd.html" target="_blank" rel="external">2nd</a> 在此版本中发现，如果坐标一样或者坐标太近等原因导致大量的数据没有被展现出来。然后又有了第三个版本。热点<a href="http://warm.pe.hu/xiaohong-house/3.html" target="_blank" rel="external">Heatmap</a></p>
+<p>好吧，轮子造到这里。鉴于近期济南房价的<strong>疯狂涨势</strong>,留着数据，一个月后再爬取一下，再做个涨幅数据的分析。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
+      &lt;p&gt;最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是&lt;strong&gt;涨疯&lt;/strong&gt;了。&lt;/p&gt;
+&lt;p&gt;刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。
     
     </summary>
     
@@ -618,35 +663,20 @@
   </entry>
   
   <entry>
-    <title>pyhon数据分析练手</title>
-    <link href="http://cybors.github.io/2016/09/08/pytho-ex/"/>
-    <id>http://cybors.github.io/2016/09/08/pytho-ex/</id>
+    <title>BeautifulSoup 进阶使用</title>
+    <link href="http://cybors.github.io/2016/09/08/BeautifulSoup/"/>
+    <id>http://cybors.github.io/2016/09/08/BeautifulSoup/</id>
     <published>2016-09-08T10:19:31.000Z</published>
-    <updated>2016-09-13T17:08:44.000Z</updated>
+    <updated>2016-09-13T17:08:30.000Z</updated>
     
-    <content type="html"><![CDATA[<p>最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是<strong>涨疯</strong>了。</p>
-<p>刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。<a id="more"></a></p>
-<p>首先想了一下基本的逻辑，先从58同城爬取一下以区域划分的房源信息。</p>
-<p>1.首先使用Chrome调试工具分析出页面中的信息所在tag的位置，通过BeautifulSoup或正则re或lxml这三个Modules分析出信息。</p>
-<p>由于三个Modules掌握都不熟练所以这混合了这三种模块。</p>
-<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lceb33g6j20h00extcz.jpg" alt="python"></p>
-<p>通过输入可以选择不同的行政区进行数据的选择。</p>
-<p>只有数据还不够直观，通过地理位置的抓取和高德地图的逆解析得到房源信息的坐标，然后展示到地图上。嗯 就这么干…</p>
-<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lco2xme7j20gt0gsgog.jpg" alt="python-amp"></p>
-<p>在匹配数据的过程中，发现会被高德(阿里)的服务器拒绝，所以加了延时500ms。</p>
-<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lcu3g5qxj211y0kgwse.jpg" alt="python-data"></p>
-<p>爬取得到的房源数据</p>
-<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lcx3fbmlj20wx0g0wmj.jpg" alt="lat-python"></p>
-<p>你解析得到的坐标数据</p>
-<p>放到页面上，<a href="http://warm.pe.hu/xiaohong-house/alpha.html" target="_blank" rel="external">alpha_version</a> 可解析出房源所在位置附近的商圈。</p>
-<p>觉得有点丑，然后又有了第二个版本<a href="http://warm.pe.hu/xiaohong-house/2nd.html" target="_blank" rel="external">2nd</a> 在此版本中发现，如果坐标一样或者坐标太近等原因导致大量的数据没有被展现出来。然后又有了第三个版本。热点<a href="http://warm.pe.hu/xiaohong-house/3.html" target="_blank" rel="external">Heatmap</a></p>
-<p>好吧，轮子造到这里。鉴于近期济南房价的<strong>疯狂涨势</strong>,留着数据，一个月后再爬取一下，再做个涨幅数据的分析。</p>
+    <content type="html"><![CDATA[<h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
+<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
+<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是&lt;strong&gt;涨疯&lt;/strong&gt;了。&lt;/p&gt;
-&lt;p&gt;刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。
+      &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
     
     </summary>
     
