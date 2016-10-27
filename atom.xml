@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cybors.github.io/"/>
-  <updated>2016-10-19T05:09:52.000Z</updated>
+  <updated>2016-10-26T10:25:08.000Z</updated>
   <id>http://cybors.github.io/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BigBang</title>
+    <link href="http://cybors.github.io/2016/10/26/BigBang/"/>
+    <id>http://cybors.github.io/2016/10/26/BigBang/</id>
+    <published>2016-10-26T10:21:01.000Z</published>
+    <updated>2016-10-26T10:25:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>###关于Big Bang!<br>前几天看老罗的新品发布会 M1 M1L(据说谐音是满意和满意了)<br>发现新的Smartisan OS 3.0系统里面的Big Bang功能有点像前几天研究的分词。</p>
+<p>今天晚上在T1上也受到了OTA的升级推送，体验了一下新版的3.0系统，发现Big Bang 功能的触摸体验不是很好，额 有点偏离主题了。</p>
+<p>今天我们来做一下用python实现Big Bang的功能。<br>这里需要用到一个开源的Module，jieba（结巴），可以使用pip进行安装<br><code>pip install jieba</code></p>
+<p>使用方法：<br>`#! -<em>- coding:utf-8 -</em>-<br>import jieba<br>seg_list = jieba.cut(“我来到山东大学”, cut_all = True)<br>print “Full Mode:”, ‘ ‘.join(seg_list) </p>
+<p>   #Full Mode: 我 来到 山东 山东大学 东大 大学</p>
+<p>   #感觉这个分词模式可以用到搜索引擎的优化，得到用户可能搜索的意图<br>seg_list = jieba.cut(“周末可以去帮吱吱搬家”)<br>print “Default Mode:”, ‘ ‘.join(seg_list)</p>
+<p>   #Default Mode: 周末 可以 去 帮 吱吱 搬家<br>   ↑这个结果完全和Big Bang的爆炸效果完全一样</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;###关于Big Bang!&lt;br&gt;前几天看老罗的新品发布会 M1 M1L(据说谐音是满意和满意了)&lt;br&gt;发现新的Smartisan OS 3.0系统里面的Big Bang功能有点像前几天研究的分词。&lt;/p&gt;
+&lt;p&gt;今天晚上在T1上也受到了OTA的升级推送，体验了一下新版
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
+    
+      <category term="tech" scheme="http://cybors.github.io/tags/tech/"/>
+    
+  </entry>
   
   <entry>
     <title>最新科学上网方法</title>
@@ -209,9 +241,9 @@
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="technology" scheme="http://cybors.github.io/tags/technology/"/>
-    
       <category term="python" scheme="http://cybors.github.io/tags/python/"/>
+    
+      <category term="technology" scheme="http://cybors.github.io/tags/technology/"/>
     
   </entry>
   
@@ -247,9 +279,9 @@
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="technology" scheme="http://cybors.github.io/tags/technology/"/>
-    
       <category term="python" scheme="http://cybors.github.io/tags/python/"/>
+    
+      <category term="technology" scheme="http://cybors.github.io/tags/technology/"/>
     
   </entry>
   
@@ -589,6 +621,33 @@
   </entry>
   
   <entry>
+    <title>BeautifulSoup 进阶使用</title>
+    <link href="http://cybors.github.io/2016/09/08/BeautifulSoup/"/>
+    <id>http://cybors.github.io/2016/09/08/BeautifulSoup/</id>
+    <published>2016-09-08T10:19:31.000Z</published>
+    <updated>2016-09-13T17:08:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
+<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
+<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+    
+  </entry>
+  
+  <entry>
     <title>pyhon数据分析练手</title>
     <link href="http://cybors.github.io/2016/09/08/pytho-ex/"/>
     <id>http://cybors.github.io/2016/09/08/pytho-ex/</id>
@@ -659,33 +718,6 @@
     
     
       <category term="alive" scheme="http://cybors.github.io/tags/alive/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BeautifulSoup 进阶使用</title>
-    <link href="http://cybors.github.io/2016/09/08/BeautifulSoup/"/>
-    <id>http://cybors.github.io/2016/09/08/BeautifulSoup/</id>
-    <published>2016-09-08T10:19:31.000Z</published>
-    <updated>2016-09-13T17:08:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
-<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
-<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
-    
-      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
     
   </entry>
   
