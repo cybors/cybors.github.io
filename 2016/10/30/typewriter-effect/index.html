@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="Royalive">
   <!-- Open Graph Data -->
-  <meta property="og:title" content="Some Commands you shoud known."/>
+  <meta property="og:title" content="typewriter-effect"/>
   <meta property="og:description" content="Royalive" />
   <meta property="og:site_name" content="诸神之黄昏"/>
   <meta property="og:type" content="article" />
@@ -43,7 +43,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-title with-background-image">
-          <p class="title">Some Commands you shoud known.</p>
+          <p class="title">typewriter-effect</p>
           <p class="subtitle"></p>
         </div>
         <div class="site-menu with-background-image">
@@ -116,7 +116,7 @@
           
           <!-- Date -->
           <span class="date-time info">On
-            <span class="date">2016-09-12</span>
+            <span class="date">2016-10-30</span>
             <span class="time">01:41:06</span>
           </span>
           
@@ -132,82 +132,33 @@
           <div class="post-tags text-muted">
             Tags: 
 
-<a class="tag" href="/tags/Technology/">#Technology</a> <a class="tag" href="/tags/Android/">#Android</a>
+<a class="tag" href="/tags/techology/">#techology</a> <a class="tag" href="/tags/python/">#python</a>
 
 
           </div>
         
         <!-- Post Main Content -->
         <div class="post-content">
-          <p>​    每个拥有android手机的人必须要会几条ADB Commands. 掌握一下命令行通过中间人的方式，你的同事的手机如果root过或者在公共场合，可以随意查看他们手机中的资料。所以对于android手机root就等于开放。<a id="more"></a></p>
-<p>ADB  = Android Debug Bridge</p>
-<p>ADB命令有很多，整理一下几条比较常用的如下：</p>
-<p>1.查看版本</p>
-<p><code>$abd version</code></p>
-<p><code>Andorid Debug Bridge version 1.0.36</code></p>
-<p><code>Revision 8F855A3D9B35-android</code></p>
-<p>2.查看连接设备</p>
-<p><code>$adb devices</code></p>
-<figure class="highlight plain"><figcaption><span>of devices attached</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">02ae0c1021089daf device</div></pre></td></tr></table></figure>
-<p>```</p>
-<p>3.安装</p>
-<p><code>adb install &lt;apkfile&gt;</code></p>
-<p>保留数据和缓存文件，重新安装apk：</p>
-<p><code>adb install -r &lt;apkfile&gt;</code><br>安装apk到sd卡：</p>
-<p><code>adb install -s &lt;apkfile&gt;</code></p>
-<p>4.卸载</p>
-<p><code>adb uninstall &lt;package&gt;</code></p>
-<p><code>\\eg：adb uninstall com.stormzhang.demo</code></p>
-<p>卸载app但保留数据和缓存文件</p>
-<p><code>adb uninstall -k &lt;package&gt;</code></p>
-<p>5.启动/停止Server</p>
-<p>启动Server</p>
-<p><code>adb start-server</code></p>
-<p>停止Server</p>
-<p><code>adb kill-server</code></p>
-<p>6.包管理</p>
-<p>列出手机装的所有app的包名</p>
-<p><code>adb shell pm list packages</code></p>
-<p>列出系统应用的所有包名</p>
-<p><code>adb shell pm list packages -s</code></p>
-<p>列出第三方应用：</p>
-<p><code>adb shell pm list packages -3</code></p>
-<p>使用grep来过滤</p>
-<p><code>adb shell pm list packages | grep qq</code></p>
-<p>7.清除应用数据及缓存</p>
-<p><code>adb shell pm clear &lt;packagename&gt;</code></p>
-<p>8.启动应用</p>
-<p><code>adb shell am start -n &lt;package&gt;/.ui.SplashActivity</code></p>
-<p>9.强制停止应用</p>
-<p><code>adb shell am force-stop &lt;packagename&gt;</code></p>
-<p>10.查看日志</p>
-<p><code>adb logcat</code></p>
-<p>11.重启</p>
-<p><code>adb reboot</code></p>
-<p>12.获取序列号</p>
-<p><code>$adb get-serialno</code></p>
-<p>13.获取MAC地址</p>
-<p><code>$adb shell cat /sys/class/net/wlan0/address</code></p>
-<p>14.查看设备型号</p>
-<p><code>adb shell getprop ro.product.model</code></p>
-<p>15.查看Android系统版本</p>
-<p><code>$adb shell getprop ro.build.version.release</code></p>
-<p>16.查看屏幕分辨率</p>
-<p><code>$adb shell wm size</code></p>
-<p>17.检查设备是否已经ROOT</p>
-<p><code>adb shell</code></p>
-<p><code>su</code></p>
-<p>18.开启关闭wifi（需ROOT权限）</p>
-<p><code>adb root</code></p>
-<p><code>adb shell svc wifi enable/disable</code></p>
-<p>19.音量控制</p>
-<p><code>adb shell input keyevent 24/25、164</code>  </p>
-<p>24增加音量，25降低音量 164 静音</p>
-<p>20.文件管理</p>
-<p>复制电脑里的文件到设备</p>
-<p><code>adb push &lt;电脑文件路径&gt; &lt;设备里的目录&gt;</code></p>
-<p>复制设备文件到电脑</p>
-<p><code>adb pull /sdcard/sr.mp4 ~/tmp</code></p>
+          <p>前几天朋友让帮忙解决一个京东商城无法右键另存为图片的问题，写了一个小程序，更简单的解决这个问题，毕竟是个重复性比较高的工作。即便解决了右键问题操作还是非常繁琐，之后会遵循开源代码协议将源码公布。<a id="more"></a></p>
+<p>程序是写好了，但是为了让程序看起来更炫(zhuang)酷(B)一些,想要在程序打开后的头部添加一个颜文字（字符画），并使用动画效果展现出来。让使用者觉得，WK，这author太牛了。哈哈 满满的虚荣。</p>
+<pre><code>import sys
+from time import sleep
+
+poem = &apos;&apos;&apos;\
+Programming is fun
+When the work is done
+if you wanna make your work also fun:
+use Python!
+&apos;&apos;&apos;
+
+for char in poem:
+    sleep(0.1)
+    sys.stdout.write(char)
+</code></pre><p>这里需要用到sys当中的 stdout 和stdin 重定向功能。</p>
+<p>参照一下sys的原注释</p>
+<blockquote>
+<p>28.1. sys — System-specific parameters and functions<strong>](//link.zhihu.com/?target=https%3A//docs.python.org/2/library/sys.html%3Fhighlight%3Dsys%23sys.stdout)File objects corresponding to the interpreter’s standard input, output and error streams. stdinis used for all interpreter input except for scripts but including calls to [input()</strong>](//link.zhihu.com/?target=https%3A//docs.python.org/2/library/functions.html%23input) and <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/library/functions.html%23raw_input">raw_input()**</a>.stdout is used for the output of <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/reference/simple_stmts.html%23print">print**</a> and <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/glossary.html%23term-expression">expression**</a> statements and for the prompts of <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/library/functions.html%23input">input()**</a>and <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/library/functions.html%23raw_input">raw_input()**</a>. The interpreter’s own prompts and (almost all of) its error messages go tostderr. stdout and stderr needn’t be built-in file objects: any object is acceptable as long as it has a write() method that takes a string argument. (Changing these objects doesn’t affect the standard I/O streams of processes executed by <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/library/os.html%23os.popen">os.popen()**</a>, <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/library/os.html%23os.system">os.system()**</a> or the exec<em>() family of functions in the [os*</em>](//link.zhihu.com/?target=https%3A//docs.python.org/2/library/os.html%23module-os) module.)</p>
+</blockquote>
 
         </div>
       </div>
