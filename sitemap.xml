@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://cybors.github.io/2017/01/01/new-year-2017/</loc>
+    
+    <lastmod>2017-01-01T02:58:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cybors.github.io/2016/10/26/BigBang/</loc>
+    
+    <lastmod>2017-01-01T02:56:06.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://cybors.github.io/2016/12/24/seckill/</loc>
     
     <lastmod>2016-12-24T07:25:50.000Z</lastmod>
@@ -19,13 +33,6 @@
     <loc>http://cybors.github.io/2016/10/30/typewriter-effect/</loc>
     
     <lastmod>2016-10-29T17:40:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cybors.github.io/2016/10/26/BigBang/</loc>
-    
-    <lastmod>2016-10-26T10:25:08.000Z</lastmod>
     
   </url>
   

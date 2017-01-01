@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cybors.github.io/"/>
-  <updated>2016-12-24T07:25:50.000Z</updated>
+  <updated>2017-01-01T02:58:26.000Z</updated>
   <id>http://cybors.github.io/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>初心未变</title>
+    <link href="http://cybors.github.io/2017/01/01/new-year-2017/"/>
+    <id>http://cybors.github.io/2017/01/01/new-year-2017/</id>
+    <published>2017-01-01T02:43:56.000Z</published>
+    <updated>2017-01-01T02:58:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>####初心未变<br>我想，新的一年里，依旧有很多事情会悄然发生，或好或坏，这是我们无法选择的。可是，我们可以选择成为怎样的自己。而我，依旧愿如那座青山，清冷，孤傲。&lt;!–more&gt;</p>
+<p>莫道夕阳晚，看破尘埃事，思量后继心，无悔过往。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;####初心未变&lt;br&gt;我想，新的一年里，依旧有很多事情会悄然发生，或好或坏，这是我们无法选择的。可是，我们可以选择成为怎样的自己。而我，依旧愿如那座青山，清冷，孤傲。&amp;lt;!–more&amp;gt;&lt;/p&gt;
+&lt;p&gt;莫道夕阳晚，看破尘埃事，思量后继心，无悔过往。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="life,2017" scheme="http://cybors.github.io/categories/life-2017/"/>
+    
+    
+      <category term="life" scheme="http://cybors.github.io/tags/life/"/>
+    
+  </entry>
   
   <entry>
     <title>秒杀系统架构优化思路</title>
@@ -102,9 +128,9 @@ for char in poem:
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
-    
       <category term="techology" scheme="http://cybors.github.io/tags/techology/"/>
+    
+      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
     
   </entry>
   
@@ -113,9 +139,9 @@ for char in poem:
     <link href="http://cybors.github.io/2016/10/26/BigBang/"/>
     <id>http://cybors.github.io/2016/10/26/BigBang/</id>
     <published>2016-10-26T10:21:01.000Z</published>
-    <updated>2016-10-26T10:25:08.000Z</updated>
+    <updated>2017-01-01T02:56:06.000Z</updated>
     
-    <content type="html"><![CDATA[<p>###关于Big Bang!<br>前几天看老罗的新品发布会 M1 M1L(据说谐音是满意和满意了)<br>发现新的Smartisan OS 3.0系统里面的Big Bang功能有点像前几天研究的分词。</p>
+    <content type="html"><![CDATA[<p>###关于Big Bang!<br>前几天看老罗的新品发布会 M1 M1L(据说谐音是满意和满意了)<br>发现新的Smartisan OS 3.0系统里面的Big Bang功能有点像前几天研究的分词。&lt;!–more&gt;</p>
 <p>今天晚上在T1上也受到了OTA的升级推送，体验了一下新版的3.0系统，发现Big Bang 功能的触摸体验不是很好，额 有点偏离主题了。</p>
 <p>今天我们来做一下用python实现Big Bang的功能。<br>这里需要用到一个开源的Module，jieba（结巴），可以使用pip进行安装<br><code>pip install jieba</code></p>
 <p>使用方法：<br>`#! -<em>- coding:utf-8 -</em>-<br>import jieba<br>seg_list = jieba.cut(“我来到山东大学”, cut_all = True)<br>print “Full Mode:”, ‘ ‘.join(seg_list) </p>
@@ -126,8 +152,8 @@ for char in poem:
     
     <summary type="html">
     
-      &lt;p&gt;###关于Big Bang!&lt;br&gt;前几天看老罗的新品发布会 M1 M1L(据说谐音是满意和满意了)&lt;br&gt;发现新的Smartisan OS 3.0系统里面的Big Bang功能有点像前几天研究的分词。&lt;/p&gt;
-&lt;p&gt;今天晚上在T1上也受到了OTA的升级推送，体验了一下新版
+      &lt;p&gt;###关于Big Bang!&lt;br&gt;前几天看老罗的新品发布会 M1 M1L(据说谐音是满意和满意了)&lt;br&gt;发现新的Smartisan OS 3.0系统里面的Big Bang功能有点像前几天研究的分词。&amp;lt;!–more&amp;gt;&lt;/p&gt;
+&lt;p&gt;今天晚上在T1上也受到了OT
     
     </summary>
     
@@ -714,48 +740,6 @@ for char in poem:
   </entry>
   
   <entry>
-    <title>pyhon数据分析练手</title>
-    <link href="http://cybors.github.io/2016/09/08/pytho-ex/"/>
-    <id>http://cybors.github.io/2016/09/08/pytho-ex/</id>
-    <published>2016-09-08T10:19:31.000Z</published>
-    <updated>2016-09-13T17:08:44.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是<strong>涨疯</strong>了。</p>
-<p>刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。<a id="more"></a></p>
-<p>首先想了一下基本的逻辑，先从58同城爬取一下以区域划分的房源信息。</p>
-<p>1.首先使用Chrome调试工具分析出页面中的信息所在tag的位置，通过BeautifulSoup或正则re或lxml这三个Modules分析出信息。</p>
-<p>由于三个Modules掌握都不熟练所以这混合了这三种模块。</p>
-<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lceb33g6j20h00extcz.jpg" alt="python"></p>
-<p>通过输入可以选择不同的行政区进行数据的选择。</p>
-<p>只有数据还不够直观，通过地理位置的抓取和高德地图的逆解析得到房源信息的坐标，然后展示到地图上。嗯 就这么干…</p>
-<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lco2xme7j20gt0gsgog.jpg" alt="python-amp"></p>
-<p>在匹配数据的过程中，发现会被高德(阿里)的服务器拒绝，所以加了延时500ms。</p>
-<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lcu3g5qxj211y0kgwse.jpg" alt="python-data"></p>
-<p>爬取得到的房源数据</p>
-<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lcx3fbmlj20wx0g0wmj.jpg" alt="lat-python"></p>
-<p>你解析得到的坐标数据</p>
-<p>放到页面上，<a href="http://warm.pe.hu/xiaohong-house/alpha.html" target="_blank" rel="external">alpha_version</a> 可解析出房源所在位置附近的商圈。</p>
-<p>觉得有点丑，然后又有了第二个版本<a href="http://warm.pe.hu/xiaohong-house/2nd.html" target="_blank" rel="external">2nd</a> 在此版本中发现，如果坐标一样或者坐标太近等原因导致大量的数据没有被展现出来。然后又有了第三个版本。热点<a href="http://warm.pe.hu/xiaohong-house/3.html" target="_blank" rel="external">Heatmap</a></p>
-<p>好吧，轮子造到这里。鉴于近期济南房价的<strong>疯狂涨势</strong>,留着数据，一个月后再爬取一下，再做个涨幅数据的分析。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是&lt;strong&gt;涨疯&lt;/strong&gt;了。&lt;/p&gt;
-&lt;p&gt;刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
-    
-      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
-    
-  </entry>
-  
-  <entry>
     <title>国事三两则</title>
     <link href="http://cybors.github.io/2016/09/08/affairs/"/>
     <id>http://cybors.github.io/2016/09/08/affairs/</id>
@@ -802,6 +786,48 @@ for char in poem:
     <summary type="html">
     
       &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pyhon数据分析练手</title>
+    <link href="http://cybors.github.io/2016/09/08/pytho-ex/"/>
+    <id>http://cybors.github.io/2016/09/08/pytho-ex/</id>
+    <published>2016-09-08T10:19:31.000Z</published>
+    <updated>2016-09-13T17:08:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是<strong>涨疯</strong>了。</p>
+<p>刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。<a id="more"></a></p>
+<p>首先想了一下基本的逻辑，先从58同城爬取一下以区域划分的房源信息。</p>
+<p>1.首先使用Chrome调试工具分析出页面中的信息所在tag的位置，通过BeautifulSoup或正则re或lxml这三个Modules分析出信息。</p>
+<p>由于三个Modules掌握都不熟练所以这混合了这三种模块。</p>
+<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lceb33g6j20h00extcz.jpg" alt="python"></p>
+<p>通过输入可以选择不同的行政区进行数据的选择。</p>
+<p>只有数据还不够直观，通过地理位置的抓取和高德地图的逆解析得到房源信息的坐标，然后展示到地图上。嗯 就这么干…</p>
+<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lco2xme7j20gt0gsgog.jpg" alt="python-amp"></p>
+<p>在匹配数据的过程中，发现会被高德(阿里)的服务器拒绝，所以加了延时500ms。</p>
+<p><img src="http://ww3.sinaimg.cn/large/89de77d7jw1f7lcu3g5qxj211y0kgwse.jpg" alt="python-data"></p>
+<p>爬取得到的房源数据</p>
+<p><img src="http://ww2.sinaimg.cn/large/89de77d7jw1f7lcx3fbmlj20wx0g0wmj.jpg" alt="lat-python"></p>
+<p>你解析得到的坐标数据</p>
+<p>放到页面上，<a href="http://warm.pe.hu/xiaohong-house/alpha.html" target="_blank" rel="external">alpha_version</a> 可解析出房源所在位置附近的商圈。</p>
+<p>觉得有点丑，然后又有了第二个版本<a href="http://warm.pe.hu/xiaohong-house/2nd.html" target="_blank" rel="external">2nd</a> 在此版本中发现，如果坐标一样或者坐标太近等原因导致大量的数据没有被展现出来。然后又有了第三个版本。热点<a href="http://warm.pe.hu/xiaohong-house/3.html" target="_blank" rel="external">Heatmap</a></p>
+<p>好吧，轮子造到这里。鉴于近期济南房价的<strong>疯狂涨势</strong>,留着数据，一个月后再爬取一下，再做个涨幅数据的分析。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近小红说要买个二手房，让我帮忙看一下二手房的信息，嗯毕竟买房是个麻烦事，而近一个月济南房价真是&lt;strong&gt;涨疯&lt;/strong&gt;了。&lt;/p&gt;
+&lt;p&gt;刚好现在学python，正好可以拿来作为练手，想要实现二手房的价格数据分析。
     
     </summary>
     
