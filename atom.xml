@@ -126,9 +126,9 @@ for char in poem:
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
-    
       <category term="techology" scheme="http://cybors.github.io/tags/techology/"/>
+    
+      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
     
   </entry>
   
@@ -765,6 +765,38 @@ for char in poem:
   </entry>
   
   <entry>
+    <title>国事三两则</title>
+    <link href="http://cybors.github.io/2016/09/08/affairs/"/>
+    <id>http://cybors.github.io/2016/09/08/affairs/</id>
+    <published>2016-09-08T10:19:31.000Z</published>
+    <updated>2016-09-13T17:08:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>###杭州峰会，奥巴马问了马云3个问题，马云一个都没回答上来！<br>但且不说这个标题的真假，我看到这个文章内容的时候还是仔细的思考了一下的。</p>
+<blockquote>
+<p>G20 杭州峰会上，奥巴马和阿里巴巴集团主席马云探讨了一下。奥巴马说我们暂且不要讨论中国的经济总量什么时候能够超过美国，我先问问另外三个 “什么时候”：<a id="more"></a><br>第一，什么时候全球的精英会把孩子送到中国留学，而不是像今天都把他们的孩子送到美国、 欧洲留学？就连你们中国教育部部长都把自己子女送往美国上学！</p>
+<p>第二，什么时候全球的年轻人会最欣赏中国的电影、文化、书籍，而不是像今天他们最喜欢的是美国、欧洲的电影、书籍、音乐？</p>
+<p>第三，什么时候全球的消费者在选择产品的时候，会首选中国的品牌？</p>
+</blockquote>
+<hr>
+<p>哪些整天叫嚣这米国人生活在水深火热之中，美帝亡我之心不死的专家教授们，不知道怎么看待这三个问题？<br>现在的任何一所高效的正式在编老师都要求有2年以上的国外求学经验，这个又怎么讲？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;###杭州峰会，奥巴马问了马云3个问题，马云一个都没回答上来！&lt;br&gt;但且不说这个标题的真假，我看到这个文章内容的时候还是仔细的思考了一下的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;G20 杭州峰会上，奥巴马和阿里巴巴集团主席马云探讨了一下。奥巴马说我们暂且不要讨论中国的经济总量什么时候能够超过美国，我先问问另外三个 “什么时候”：
+    
+    </summary>
+    
+      <category term="life" scheme="http://cybors.github.io/categories/life/"/>
+    
+    
+      <category term="alive" scheme="http://cybors.github.io/tags/alive/"/>
+    
+  </entry>
+  
+  <entry>
     <title>pyhon数据分析练手</title>
     <link href="http://cybors.github.io/2016/09/08/pytho-ex/"/>
     <id>http://cybors.github.io/2016/09/08/pytho-ex/</id>
@@ -803,38 +835,6 @@ for char in poem:
       <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
     
       <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>国事三两则</title>
-    <link href="http://cybors.github.io/2016/09/08/affairs/"/>
-    <id>http://cybors.github.io/2016/09/08/affairs/</id>
-    <published>2016-09-08T10:19:31.000Z</published>
-    <updated>2016-09-13T17:08:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>###杭州峰会，奥巴马问了马云3个问题，马云一个都没回答上来！<br>但且不说这个标题的真假，我看到这个文章内容的时候还是仔细的思考了一下的。</p>
-<blockquote>
-<p>G20 杭州峰会上，奥巴马和阿里巴巴集团主席马云探讨了一下。奥巴马说我们暂且不要讨论中国的经济总量什么时候能够超过美国，我先问问另外三个 “什么时候”：<a id="more"></a><br>第一，什么时候全球的精英会把孩子送到中国留学，而不是像今天都把他们的孩子送到美国、 欧洲留学？就连你们中国教育部部长都把自己子女送往美国上学！</p>
-<p>第二，什么时候全球的年轻人会最欣赏中国的电影、文化、书籍，而不是像今天他们最喜欢的是美国、欧洲的电影、书籍、音乐？</p>
-<p>第三，什么时候全球的消费者在选择产品的时候，会首选中国的品牌？</p>
-</blockquote>
-<hr>
-<p>哪些整天叫嚣这米国人生活在水深火热之中，美帝亡我之心不死的专家教授们，不知道怎么看待这三个问题？<br>现在的任何一所高效的正式在编老师都要求有2年以上的国外求学经验，这个又怎么讲？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;###杭州峰会，奥巴马问了马云3个问题，马云一个都没回答上来！&lt;br&gt;但且不说这个标题的真假，我看到这个文章内容的时候还是仔细的思考了一下的。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;G20 杭州峰会上，奥巴马和阿里巴巴集团主席马云探讨了一下。奥巴马说我们暂且不要讨论中国的经济总量什么时候能够超过美国，我先问问另外三个 “什么时候”：
-    
-    </summary>
-    
-      <category term="life" scheme="http://cybors.github.io/categories/life/"/>
-    
-    
-      <category term="alive" scheme="http://cybors.github.io/tags/alive/"/>
     
   </entry>
   
