@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cybors.github.io/"/>
-  <updated>2017-01-04T09:56:40.000Z</updated>
+  <updated>2017-01-04T10:12:34.000Z</updated>
   <id>http://cybors.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://cybors.github.io/2017/01/03/line-up/"/>
     <id>http://cybors.github.io/2017/01/03/line-up/</id>
     <published>2017-01-02T17:23:56.000Z</published>
-    <updated>2017-01-04T09:56:40.000Z</updated>
+    <updated>2017-01-04T10:12:34.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://image.uc.cn/o/wemedia/s/upload/2017/1701040849643f91abdb3805edc2be4ba1cdefbc58x900x499x180.png;,3,jpegx;3,700x.jpg" alt="科学减少排队时间"><br>要问逛超市的时候最讨厌的事情是什么，大部分人的答案都一样：排队结账。人们往往还会认为，自己排的队伍永远是最慢的。</p>
 <p>那有没有可能，通过理性分析进行决策，找到排队时间最短的队伍？《纽约时报》9月的一篇文章告诉我们，懂得运用一些心理学和博弈论的知识，确实可以让你缩短通过结账区的时间。<a id="more"></a></p>
@@ -31,7 +31,7 @@
 <p>总得来说，排队这件事，除了运气之外，你可能还需要懂一点心算、博弈论和心理学。</p>
 <p>其实，关于自己的队伍总是慢这件事，作家大卫-安德鲁还专门写了一本叫《为什么别人的队伍总比你的快》，安德鲁认为这其实是个概率问题。如果你的面前有三只队伍，那么其中一只队伍比你选择的队伍前进快的几率是2/3，而你所在的队伍移动快的几率只有1/3。所以在随机概率的角度看，自己排的队伍的确是容易变成较慢的队伍。</p>
 <p>心理学研究也显示，人们平均会将自己的等待时长高估 36%，这就加深了我们关于队伍慢的想法，而且“自己站的队伍慢”这件事情更容易被大脑记住，但迅速通过结账口很有可能被大脑忽略，长时间下来，就造成了“我排的队伍总是最慢的”这样的错觉。</p>
-<p>当然了，虽说队伍慢这件事，既是大概率事件，又是一个心理上很难克服的偏见，但掌握了咱们上面说的那些小窍门，你还是有办法，比别人更迅速地通过结账区。</p>
+<p>当然了，虽说队伍慢这件事，既是大概率事件，又是一个心理上很难克服的偏见，但掌握了咱们上面说的那些小窍门，你还是有办法，比别人更迅速地通过结账区。<br><strong>此文为看点（科思）原创内容，特此声明</strong></p>
 ]]></content>
     
     <summary type="html">
@@ -158,9 +158,9 @@ for char in poem:
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
-    
       <category term="techology" scheme="http://cybors.github.io/tags/techology/"/>
+    
+      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
     
   </entry>
   
@@ -770,6 +770,33 @@ for char in poem:
   </entry>
   
   <entry>
+    <title>BeautifulSoup 进阶使用</title>
+    <link href="http://cybors.github.io/2016/09/08/BeautifulSoup/"/>
+    <id>http://cybors.github.io/2016/09/08/BeautifulSoup/</id>
+    <published>2016-09-08T10:19:31.000Z</published>
+    <updated>2016-09-13T17:08:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
+<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
+<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
+    
+    </summary>
+    
+      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
+    
+    
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+    
+  </entry>
+  
+  <entry>
     <title>pyhon数据分析练手</title>
     <link href="http://cybors.github.io/2016/09/08/pytho-ex/"/>
     <id>http://cybors.github.io/2016/09/08/pytho-ex/</id>
@@ -840,33 +867,6 @@ for char in poem:
     
     
       <category term="alive" scheme="http://cybors.github.io/tags/alive/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BeautifulSoup 进阶使用</title>
-    <link href="http://cybors.github.io/2016/09/08/BeautifulSoup/"/>
-    <id>http://cybors.github.io/2016/09/08/BeautifulSoup/</id>
-    <published>2016-09-08T10:19:31.000Z</published>
-    <updated>2016-09-13T17:08:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="BeautufulSoup-CSS-selector"><a href="#BeautufulSoup-CSS-selector" class="headerlink" title="BeautufulSoup CSS selector"></a>BeautufulSoup CSS selector</h1><p>之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。<a id="more"></a></p>
-<p><img src="http://ww1.sinaimg.cn/large/89de77d7jw1f7mcfj3u04j20cp0fo0uy.jpg" alt="beautifulsoup"></p>
-<p>通过Chrome或者FF 得到tag的CSS Selector 路径使用select可以直接进行使用，明显的代码少了很多行，而且执行速度大大提升。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;BeautufulSoup-CSS-selector&quot;&gt;&lt;a href=&quot;#BeautufulSoup-CSS-selector&quot; class=&quot;headerlink&quot; title=&quot;BeautufulSoup CSS selector&quot;&gt;&lt;/a&gt;BeautufulSoup CSS selector&lt;/h1&gt;&lt;p&gt;之前混合使用bs4、re、lxml 这三个Modules进行解析html的方式虽然可以解决问题但是明显的影响了响应速度，突然发现BS4可以使用CSS Selector方式类似与Xpath的解析。
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
-    
-      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
     
   </entry>
   
