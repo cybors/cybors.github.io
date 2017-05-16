@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cybors.github.io/"/>
-  <updated>2017-01-04T10:12:34.000Z</updated>
+  <updated>2016-09-14T09:37:14.000Z</updated>
   <id>http://cybors.github.io/</id>
   
   <author>
@@ -16,648 +16,58 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>如何科学的减少超市排队时间？</title>
-    <link href="http://cybors.github.io/2017/01/03/line-up/"/>
-    <id>http://cybors.github.io/2017/01/03/line-up/</id>
-    <published>2017-01-02T17:23:56.000Z</published>
-    <updated>2017-01-04T10:12:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://image.uc.cn/o/wemedia/s/upload/2017/1701040849643f91abdb3805edc2be4ba1cdefbc58x900x499x180.png;,3,jpegx;3,700x.jpg" alt="科学减少排队时间"><br>要问逛超市的时候最讨厌的事情是什么，大部分人的答案都一样：排队结账。人们往往还会认为，自己排的队伍永远是最慢的。</p>
-<p>那有没有可能，通过理性分析进行决策，找到排队时间最短的队伍？《纽约时报》9月的一篇文章告诉我们，懂得运用一些心理学和博弈论的知识，确实可以让你缩短通过结账区的时间。<a id="more"></a></p>
-<p>文章先教给大家一个秘诀——观察排队的人。我们排队时，会避开排在一大串购物车的后面，这当然没错，而且，在两支队伍人数几乎一致的时候，这是个不错的选择。那要有这么两支队伍供你选：一支是排队人数少，但每个人都购物车满满；另外一支，则是排队人数很多，但推购物车的人却少，又挑哪支队排呢？</p>
-<p>这个时候，就得科学决策了。图表公司Desmos的专家发现，除去扫描商品的时间，每个顾客通过结账通道需要41秒，而平均每个商品通过扫描的时间是3秒。做个简单的计算，一个买了 100 样商品的人通过收银台的时间不到 6 分钟，而4个拿了 20 样商品的顾客，需要的时间则是 7 分多钟。可见，有时候选择排在一个购物车装满了，但是队伍很短的人后面，是件划算的事。</p>
-<p>当然了，不应该只是研究前面的人数，还得研究他们都买了啥、年龄多大。买5罐可乐的人，比买了5种不同东西的人结账速度快；上了年纪的人可能会忘记银行卡密码、找不到零钱，也影响通过速度……避开这些状况多发人群，也可以让你快速通过结账区。</p>
-<p>说来说去，上面这些决策过程，还是流程太长，有没有快速判断的窍门呢？还真有。第一个方法，是选择左侧的收银台，大多数人都是右撇子，一般会下意识地右转，我们不如先左转试试。另一个窍门是尽量选择可以看得到收银员的收银台，如果收银员能看得到等待用户的数量，那么她会动作更快些。最后一个窍门，是观察收银员，一个动作麻利又话少的收银员，应该成为你的首选。</p>
-<p>总得来说，排队这件事，除了运气之外，你可能还需要懂一点心算、博弈论和心理学。</p>
-<p>其实，关于自己的队伍总是慢这件事，作家大卫-安德鲁还专门写了一本叫《为什么别人的队伍总比你的快》，安德鲁认为这其实是个概率问题。如果你的面前有三只队伍，那么其中一只队伍比你选择的队伍前进快的几率是2/3，而你所在的队伍移动快的几率只有1/3。所以在随机概率的角度看，自己排的队伍的确是容易变成较慢的队伍。</p>
-<p>心理学研究也显示，人们平均会将自己的等待时长高估 36%，这就加深了我们关于队伍慢的想法，而且“自己站的队伍慢”这件事情更容易被大脑记住，但迅速通过结账口很有可能被大脑忽略，长时间下来，就造成了“我排的队伍总是最慢的”这样的错觉。</p>
-<p>当然了，虽说队伍慢这件事，既是大概率事件，又是一个心理上很难克服的偏见，但掌握了咱们上面说的那些小窍门，你还是有办法，比别人更迅速地通过结账区。<br><strong>此文为看点（科思）原创内容，特此声明</strong></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://image.uc.cn/o/wemedia/s/upload/2017/1701040849643f91abdb3805edc2be4ba1cdefbc58x900x499x180.png;,3,jpegx;3,700x.jpg&quot; alt=&quot;科学减少排队时间&quot;&gt;&lt;br&gt;要问逛超市的时候最讨厌的事情是什么，大部分人的答案都一样：排队结账。人们往往还会认为，自己排的队伍永远是最慢的。&lt;/p&gt;
-&lt;p&gt;那有没有可能，通过理性分析进行决策，找到排队时间最短的队伍？《纽约时报》9月的一篇文章告诉我们，懂得运用一些心理学和博弈论的知识，确实可以让你缩短通过结账区的时间。
-    
-    </summary>
-    
-      <category term="life,2017" scheme="http://cybors.github.io/categories/life-2017/"/>
-    
-    
-      <category term="life" scheme="http://cybors.github.io/tags/life/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>初心未变</title>
-    <link href="http://cybors.github.io/2017/01/01/new-year-2017/"/>
-    <id>http://cybors.github.io/2017/01/01/new-year-2017/</id>
-    <published>2017-01-01T02:43:56.000Z</published>
-    <updated>2017-01-04T09:07:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>初心未变<br>我想，新的一年里，依旧有很多事情会悄然发生，或好或坏，这是我们无法选择的。可是，我们可以选择成为怎样的自己。而我，依旧愿如那座青山，清冷，孤傲。<br><a id="more"></a><br>莫道夕阳晚，看破尘埃事，思量后继心，无悔过往。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;初心未变&lt;br&gt;我想，新的一年里，依旧有很多事情会悄然发生，或好或坏，这是我们无法选择的。可是，我们可以选择成为怎样的自己。而我，依旧愿如那座青山，清冷，孤傲。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="life,2017" scheme="http://cybors.github.io/categories/life-2017/"/>
-    
-    
-      <category term="life" scheme="http://cybors.github.io/tags/life/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>秒杀系统架构优化思路</title>
-    <link href="http://cybors.github.io/2016/12/24/seckill/"/>
-    <id>http://cybors.github.io/2016/12/24/seckill/</id>
-    <published>2016-12-24T02:14:14.000Z</published>
-    <updated>2016-12-24T07:25:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>####一、秒杀业务为什么难做<br>1.im系统，例如qq或微博，每个人都读自己的数据（好友列表、群列表、个人信息）；<br>2.微博系统，每个人读取多个人的数据（读取所关注的人的数据）<br>3.秒杀系统，库存数量少，所有人会在集中的时间读和写这些数据，多个人读一个数据。<br>秒杀业务难点，读写冲突，锁非常严重。<a id="more"></a></p>
-<p>####二、优化方向<br>1.<strong>将请求尽量拦截在系统上游</strong>(不要让锁冲突落到数据库上)。传统秒杀系统之所以会挂，请求都压到了后端数据层，数据读写锁冲突严重，并发高响应慢，几乎所有请求都超市，流量虽大，下单成功的有效流量甚小。<br>2.<strong>充分利用缓存</strong>，多数人是查库存，秒杀成功率低，读比例占99%，非常适合使用缓存来优化。</p>
-<p>####三、常见秒杀架构<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">op1=&gt;operation:浏览器</div><div class="line">op2=&gt;operation:站点</div><div class="line">op3=&gt;operation:服务</div><div class="line">op4=&gt;operation：数据</div><div class="line">op1-&gt;op2-&gt;op3-&gt;op4</div></pre></td></tr></table></figure></p>
-<p>1.浏览器端，最上层，会执行到一些JS代码<br>2.站点层，这一层会访问后端数据，拼html页面返回给浏览器<br>3.服务层，向上游屏蔽底层数据细节，提供数据访问<br>4.数据层，最终的库存是存在这里的，mysql是一个典型（当然还有会缓存）<br>这个图虽然简单，但能形象的说明大流量高并发的秒杀业务架构，大家要记得这一张图。<br>后面细细解析各个层级怎么优化。</p>
-<p>####四、各层次优化细节<br>第一层，客户端怎么优化（浏览器层，APP层）<br>问大家一个问题，大家都玩过微信的摇一摇抢红包对吧，每次摇一摇，就会往后端发送请求么？回顾我们下单抢票的场景，点击了“查询”按钮之后，系统那个卡呀，进度条涨的慢呀，作为用户，我会不自觉的再去点击“查询”，对么？继续点，继续点，点点点。。。有用么？平白无故的增加了系统负载，一个用户点5次，80%的请求是这么多出来的，怎么整？<br>（a）产品层面，用户点击“查询”或者“购票”后，按钮置灰，禁止用户重复提交请求；<br>（b）JS层面，限制用户在x秒之内只能提交一次请求；<br>APP层面，可以做类似的事情，虽然你疯狂的在摇微信，其实x秒才向后端发起一次请求。这就是所谓的“将请求尽量拦截在系统上游”，越上游越好，浏览器层，APP层就给拦住，这样就能挡住80%+的请求，这种办法只能拦住普通用户（但99%的用户是普通用户）对于群内的高端程序员是拦不住的。firebug一抓包，http长啥样都知道，js是万万拦不住程序员写for循环，调用http接口的，这部分请求怎么处理？</p>
-<p>第二层，站点层面的请求拦截<br>怎么拦截？怎么防止程序员写for循环调用，有去重依据么？ip？cookie-id？…想复杂了，这类业务都需要登录，用uid即可。在站点层面，对uid进行请求计数和去重，甚至不需要统一存储计数，直接站点层内存存储（这样计数会不准，但最简单）。一个uid，5秒只准透过1个请求，这样又能拦住99%的for循环请求。<br>5s只透过一个请求，其余的请求怎么办？缓存，页面缓存，同一个uid，限制访问频度，做页面缓存，x秒内到达站点层的请求，均返回同一页面。同一个item的查询，例如车次，做页面缓存，x秒内到达站点层的请求，均返回同一页面。如此限流，既能保证用户有良好的用户体验（没有返回404）又能保证系统的健壮性（利用页面缓存，把请求拦截在站点层了）。<br>页面缓存不一定要保证所有站点返回一致的页面，直接放在每个站点的内存也是可以的。优点是简单，坏处是http请求落到不同的站点，返回的车票数据可能不一样，这是站点层的请求拦截与缓存优化。</p>
-<p>好，这个方式拦住了写for循环发http请求的程序员，有些高端程序员（黑客）控制了10w个肉鸡，手里有10w个uid，同时发请求（先不考虑实名制的问题，小米抢手机不需要实名制），这下怎么办，站点层按照uid限流拦不住了。</p>
-<p>第三层 服务层来拦截（反正就是不要让请求落到数据库上去）<br>服务层怎么拦截？大哥，我是服务层，我清楚的知道小米只有1万部手机，我清楚的知道一列火车只有2000张车票，我透10w个请求去数据库有什么意义呢？没错，请求队列！<br>对于写请求，做请求队列，每次只透有限的写请求去数据层（下订单，支付这样的写业务）<br>1w部手机，只透1w个下单请求去db<br>3k张火车票，只透3k个下单请求去db<br>如果均成功再放下一批，如果库存不够则队列里的写请求全部返回“已售完”。</p>
-<p>对于读请求，怎么优化？cache抗，不管是memcached还是redis，单机抗个每秒10w应该都是没什么问题的。如此限流，只有非常少的写请求，和非常少的读缓存mis的请求会透到数据层去，又有99.9%的请求被拦住了。</p>
-<p>当然，还有业务规则上的一些优化。回想12306所做的，分时分段售票，原来统一10点卖票，现在8点，8点半，9点，…每隔半个小时放出一批：将流量摊匀。<br>其次，数据粒度的优化：你去购票，对于余票查询这个业务，票剩了58张，还是26张，你真的关注么，其实我们只关心有票和无票？流量大的时候，做一个粗粒度的“有票”“无票”缓存即可。<br>第三，一些业务逻辑的异步：例如下单业务与 支付业务的分离。这些优化都是结合 业务 来的，我之前分享过一个观点“一切脱离业务的架构设计都是耍流氓”架构的优化也要针对业务。</p>
-<p>好了，最后是数据库层<br>浏览器拦截了80%，站点层拦截了99.9%并做了页面缓存，服务层又做了写请求队列与数据缓存，每次透到数据库层的请求都是可控的。db基本就没什么压力了，闲庭信步，单机也能扛得住，还是那句话，库存是有限的，小米的产能有限，透这么多请求来数据库没有意义。<br>全部透到数据库，100w个下单，0个成功，请求有效率0%。透3k个到数据，全部成功，请求有效率100%。</p>
-<p>####五、总结<br>上文应该描述的非常清楚了，没什么总结了，对于秒杀系统，再次重复下我个人经验的两个架构优化思路：<br>（1）尽量将请求拦截在系统上游（越上游越好）；<br>（2）读多写少的常用多使用缓存（缓存抗读压力）；<br>浏览器和APP：做限速<br>站点层：按照uid做限速，做页面缓存<br>服务层：按照业务做写请求队列控制流量，做数据缓存<br>数据层：闲庭信步<br>并且：结合业务做优化</p>
-<p>####六、Q&amp;A<br>问题1、按你的架构，其实压力最大的反而是站点层，假设真实有效的请求数有1000万，不太可能限制请求连接数吧，那么这部分的压力怎么处理？<br>答：每秒钟的并发可能没有1kw，假设有1kw，解决方案2个：<br>（1）站点层是可以通过加机器扩容的，最不济1k台机器来呗。<br>（2）如果机器不够，抛弃请求，抛弃50%（50%直接返回稍后再试），原则是要保护系统，不能让所有用户都失败。</p>
-<p>问题2、“控制了10w个肉鸡，手里有10w个uid，同时发请求” 这个问题怎么解决哈？<br>答：上面说了，服务层写请求队列控制</p>
-<p>问题3：限制访问频次的缓存，是否也可以用于搜索？例如A用户搜索了“手机”，B用户搜索“手机”，优先使用A搜索后生成的缓存页面？<br>答：这个是可以的，这个方法也经常用在“动态”运营活动页，例如短时间推送4kw用户app-push运营活动，做页面缓存。</p>
-<p>问题4：如果队列处理失败，如何处理？肉鸡把队列被撑爆了怎么办？<br>答：处理失败返回下单失败，让用户再试。队列成本很低，爆了很难吧。最坏的情况下，缓存了若干请求之后，后续请求都直接返回“无票”（队列里已经有100w请求了，都等着，再接受请求也没有意义了）</p>
-<p>问题5：站点层过滤的话，是把uid请求数单独保存到各个站点的内存中么？如果是这样的话，怎么处理多台服务器集群经过负载均衡器将相同用户的响应分布到不同服务器的情况呢？还是说将站点层的过滤放到负载均衡前？<br>答：可以放在内存，这样的话看似一台服务器限制了5s一个请求，全局来说（假设有10台机器），其实是限制了5s 10个请求，解决办法：<br>1）加大限制（这是建议的方案，最简单）<br>2）在nginx层做7层均衡，让一个uid的请求尽量落到同一个机器上</p>
-<p>问题6：服务层过滤的话，队列是服务层统一的一个队列？还是每个提供服务的服务器各一个队列？如果是统一的一个队列的话，需不需要在各个服务器提交的请求入队列前进行锁控制？<br>答：可以不用统一一个队列，这样的话每个服务透过更少量的请求（总票数/服务个数），这样简单。统一一个队列又复杂了。</p>
-<p>问题7：秒杀之后的支付完成，以及未支付取消占位，如何对剩余库存做及时的控制更新？<br>答：数据库里一个状态，未支付。如果超过时间，例如45分钟，库存会重新会恢复（大家熟知的“回仓”），给我们抢票的启示是，开动秒杀后，45分钟之后再试试看，说不定又有票哟~</p>
-<p>问题8：不同的用户浏览同一个商品 落在不同的缓存实例显示的库存完全不一样 请问老师怎么做缓存数据一致或者是允许脏读？<br>答：目前的架构设计，请求落到不同的站点上，数据可能不一致（页面缓存不一样），这个业务场景能接受。但数据库层面真实数据是没问题的。</p>
-<p>问题9：就算处于业务把优化考虑“3k张火车票，只透3k个下单请求去db”那这3K个订单就不会发生拥堵了吗？<br>答：（1）数据库抗3k个写请求还是ok的；（2）可以数据拆分；（3）如果3k扛不住，服务层可以控制透过去的并发数量，根据压测情况来吧，3k只是举例；</p>
-<p>问题10；如果在站点层或者服务层处理后台失败的话，需不需要考虑对这批处理失败的请求做重放？还是就直接丢弃？<br>答：别重放了，返回用户查询失败或者下单失败吧，架构设计原则之一是“fail fast”。</p>
-<p>问题11.对于大型系统的秒杀，比如12306，同时进行的秒杀活动很多，如何分流？<br>答：垂直拆分</p>
-<p>问题12、额外又想到一个问题。这套流程做成同步还是异步的？如果是同步的话，应该还存在会有响应反馈慢的情况。但如果是异步的话，如何控制能够将响应结果返回正确的请求方？<br>答：用户层面肯定是同步的（用户的http请求是夯住的），服务层面可以同步可以异步。</p>
-<p>问题13、秒杀群提问：减库存是在那个阶段减呢？如果是下单锁库存的话，大量恶意用户下单锁库存而不支付如何处理呢？<br>答：数据库层面写请求量很低，还好，下单不支付，等时间过完再“回仓”，之前提过了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;####一、秒杀业务为什么难做&lt;br&gt;1.im系统，例如qq或微博，每个人都读自己的数据（好友列表、群列表、个人信息）；&lt;br&gt;2.微博系统，每个人读取多个人的数据（读取所关注的人的数据）&lt;br&gt;3.秒杀系统，库存数量少，所有人会在集中的时间读和写这些数据，多个人读一个数据。&lt;br&gt;秒杀业务难点，读写冲突，锁非常严重。
-    
-    </summary>
-    
-      <category term="technology" scheme="http://cybors.github.io/categories/technology/"/>
-    
-    
-      <category term="b2b" scheme="http://cybors.github.io/tags/b2b/"/>
-    
-      <category term="b2c" scheme="http://cybors.github.io/tags/b2c/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>typewriter-effect</title>
-    <link href="http://cybors.github.io/2016/10/30/typewriter-effect/"/>
-    <id>http://cybors.github.io/2016/10/30/typewriter-effect/</id>
-    <published>2016-10-29T17:14:44.000Z</published>
-    <updated>2016-10-29T17:40:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>前几天朋友让帮忙解决一个京东商城无法右键另存为图片的问题，写了一个小程序，更简单的解决这个问题，毕竟是个重复性比较高的工作。即便解决了右键问题操作还是非常繁琐，之后会遵循开源代码协议将源码公布。<a id="more"></a></p>
-<p>程序是写好了，但是为了让程序看起来更炫(zhuang)酷(B)一些,想要在程序打开后的头部添加一个颜文字（字符画），并使用动画效果展现出来。让使用者觉得，WK，这author太牛了。哈哈 满满的虚荣。</p>
-<pre><code>import sys
-from time import sleep
-
-poem = &apos;&apos;&apos;\
-Programming is fun
-When the work is done
-if you wanna make your work also fun:
-use Python!
-&apos;&apos;&apos;
-
-for char in poem:
-    sleep(0.1)
-    sys.stdout.write(char)
-</code></pre><p>这里需要用到sys当中的 stdout 和stdin 重定向功能。</p>
-<p>参照一下sys的原注释</p>
-<blockquote>
-<p>28.1. sys — System-specific parameters and functions<strong>](//link.zhihu.com/?target=https%3A//docs.python.org/2/library/sys.html%3Fhighlight%3Dsys%23sys.stdout)File objects corresponding to the interpreter’s standard input, output and error streams. stdinis used for all interpreter input except for scripts but including calls to [input()</strong>](//link.zhihu.com/?target=https%3A//docs.python.org/2/library/functions.html%23input) and <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/library/functions.html%23raw_input">raw_input()**</a>.stdout is used for the output of <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/reference/simple_stmts.html%23print">print**</a> and <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/glossary.html%23term-expression">expression**</a> statements and for the prompts of <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/library/functions.html%23input">input()**</a>and <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/library/functions.html%23raw_input">raw_input()**</a>. The interpreter’s own prompts and (almost all of) its error messages go tostderr. stdout and stderr needn’t be built-in file objects: any object is acceptable as long as it has a write() method that takes a string argument. (Changing these objects doesn’t affect the standard I/O streams of processes executed by <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/library/os.html%23os.popen">os.popen()**</a>, <a href="//link.zhihu.com/?target=https%3A//docs.python.org/2/library/os.html%23os.system">os.system()**</a> or the exec<em>() family of functions in the [os*</em>](//link.zhihu.com/?target=https%3A//docs.python.org/2/library/os.html%23module-os) module.)</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;前几天朋友让帮忙解决一个京东商城无法右键另存为图片的问题，写了一个小程序，更简单的解决这个问题，毕竟是个重复性比较高的工作。即便解决了右键问题操作还是非常繁琐，之后会遵循开源代码协议将源码公布。
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="techology" scheme="http://cybors.github.io/tags/techology/"/>
-    
-      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BigBang</title>
-    <link href="http://cybors.github.io/2016/10/26/BigBang/"/>
-    <id>http://cybors.github.io/2016/10/26/BigBang/</id>
-    <published>2016-10-26T10:21:01.000Z</published>
-    <updated>2017-01-01T02:56:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>###关于Big Bang!<br>前几天看老罗的新品发布会 M1 M1L(据说谐音是满意和满意了)<br>发现新的Smartisan OS 3.0系统里面的Big Bang功能有点像前几天研究的分词。&lt;!–more&gt;</p>
-<p>今天晚上在T1上也受到了OTA的升级推送，体验了一下新版的3.0系统，发现Big Bang 功能的触摸体验不是很好，额 有点偏离主题了。</p>
-<p>今天我们来做一下用python实现Big Bang的功能。<br>这里需要用到一个开源的Module，jieba（结巴），可以使用pip进行安装<br><code>pip install jieba</code></p>
-<p>使用方法：<br>`#! -<em>- coding:utf-8 -</em>-<br>import jieba<br>seg_list = jieba.cut(“我来到山东大学”, cut_all = True)<br>print “Full Mode:”, ‘ ‘.join(seg_list) </p>
-<p>   #Full Mode: 我 来到 山东 山东大学 东大 大学</p>
-<p>   #感觉这个分词模式可以用到搜索引擎的优化，得到用户可能搜索的意图<br>seg_list = jieba.cut(“周末可以去帮吱吱搬家”)<br>print “Default Mode:”, ‘ ‘.join(seg_list)</p>
-<p>   #Default Mode: 周末 可以 去 帮 吱吱 搬家<br>   ↑这个结果完全和Big Bang的爆炸效果完全一样</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;###关于Big Bang!&lt;br&gt;前几天看老罗的新品发布会 M1 M1L(据说谐音是满意和满意了)&lt;br&gt;发现新的Smartisan OS 3.0系统里面的Big Bang功能有点像前几天研究的分词。&amp;lt;!–more&amp;gt;&lt;/p&gt;
-&lt;p&gt;今天晚上在T1上也受到了OT
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
-    
-      <category term="tech" scheme="http://cybors.github.io/tags/tech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>最新科学上网方法</title>
-    <link href="http://cybors.github.io/2016/10/19/gfwgoagent/"/>
-    <id>http://cybors.github.io/2016/10/19/gfwgoagent/</id>
-    <published>2016-10-19T04:42:55.000Z</published>
-    <updated>2016-10-19T05:09:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>​    在goagent被–河蟹–后，选择科学上网除了购买VPN，没有好的方法了，而VPN也被河蟹后，连淘宝甚至国内的空间供应商也不敢公开的售卖VPN服务。</p>
-<p>​    如何科学上网成了一个不小的问题，比如你要解决一个计算机技术方面的问题，显然国内的度让你觉得这个问题真的没法解决。<a id="more"></a></p>
-<p>​    在掘金平台发现了XX-NET，发现可以重新启用Goagent.</p>
-<p>​    考虑到大家还没有科学上网的环境，把工具放到了我的百度网盘。</p>
-<p>​    下载链接：<a href="http://pan.baidu.com/s/1bpmRgcv" target="_blank" rel="external">百度云盘</a></p>
-<p>​    下载密码：b7e1</p>
-<p>​     如有问题可想我提问，或邮件。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;​    在goagent被–河蟹–后，选择科学上网除了购买VPN，没有好的方法了，而VPN也被河蟹后，连淘宝甚至国内的空间供应商也不敢公开的售卖VPN服务。&lt;/p&gt;
-&lt;p&gt;​    如何科学上网成了一个不小的问题，比如你要解决一个计算机技术方面的问题，显然国内的度让你觉得这个问题真的没法解决。
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="technology" scheme="http://cybors.github.io/tags/technology/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python-summarization</title>
-    <link href="http://cybors.github.io/2016/09/27/python-summarization/"/>
-    <id>http://cybors.github.io/2016/09/27/python-summarization/</id>
-    <published>2016-09-27T08:45:57.000Z</published>
-    <updated>2016-09-27T11:27:38.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>自动摘要（Automatic Summarization）的方法主要有两种：Extraction和Abstraction。其中Extraction是抽取式自动文摘方法，通过提取文档中已存在的关键词，句子形成摘要；Abstraction是生成式自动文摘方法，通过建立抽象的语意表示，使用自然语言生成技术，形成摘要。由于自动摘要方法需要复杂的自然语言理解和生成技术支持，应用领域受限。，抽取式摘要成为现阶段主流，它也能在很大程度上满足人们对摘要的需求。<a id="more"></a></p>
-<p>目前抽取式的主要方法：</p>
-<ul>
-<li>基于统计：统计词频，位置等信息，计算句子权值，再简选取权值高的句子作为文摘，特点：简单易用，但对词句的使用大多仅停留在表面信息。</li>
-<li>基于图模型：构建拓扑结构图，对词句进行排序。例如，TextRank/LexRank</li>
-<li>基于潜在语义：使用主题模型，挖掘词句隐藏信息。例如，采用LDA，HMM</li>
-<li>基于线路规划：将摘要问题转为线路规划，求全局最优解。</li>
-</ul>
-<p>2007年，美国学者的论文<a href="http://www.cs.cmu.edu/~nasmith/LS2/das-martins.07.pdf" target="_blank" rel="external">《A Survey on Automatic Text Summarization》</a>（Dipanjan Das, Andre F.T. Martins, 2007）总结了目前的自动摘要算法。其中，很重要的一种就是词频统计。这种方法最早出自1958年的IBM公司科学家 H.P. Luhn的论文<a href="http://www.di.ubi.pt/~jpaulo/competence/general/(1958" target="_blank" rel="external">《The Automatic Creation of Literature Abstracts》</a>Luhn.pdf)。</p>
-<p>Luhn博士认为，文章的信息都包含在句子中，有些句子包含的信息多，有些句子包含的信息少。”自动摘要”就是要找出那些包含信息最多的句子。句子的信息量用”关键词”来衡量。如果包含的关键词越多，就说明这个句子越重要。Luhn提出用”簇”（cluster）表示关键词的聚集。所谓”簇”就是包含多个关键词的句子片段。</p>
-<p><img src="http://www.biaodianfu.com/wp-content/uploads/2016/09/cluster.png" alt="cluster"></p>
-<p>上图就是Luhn原始论文的插图，被框起来的部分就是一个”簇”。只要关键词之间的距离小于”门槛值”，它们就被认为处于同一个簇之中。Luhn建议的门槛值是4或5。也就是说，如果两个关键词之间有5个以上的其他词，就可以把这两个关键词分在两个簇。下一步，对于每个簇，都计算它的重要性分值。</p>
-<p><img src="http://www.biaodianfu.com/wp-content/uploads/2016/09/cluster-2.png" alt="cluster-2"></p>
-<p>以上图为例，其中的簇一共有7个词，其中4个是关键词。因此，它的重要性分值等于 ( 4 x 4 ) / 7 = 2.3。</p>
-<p>然后，找出包含分值最高的簇的句子（比如5句），把它们合在一起，就构成了这篇文章的自动摘要。具体实现可以参见 <a href="http://www.amazon.com/Mining-Social-Web-Analyzing-Facebook/dp/1449388345" target="_blank" rel="external">《Mining the Social Web: Analyzing Data from Facebook, Twitter, LinkedIn, and Other Social Media Sites》</a>（O’Reilly, 2011）一书的第8章，python代码见<a href="https://github.com/ptwobrussell/Mining-the-Social-Web/blob/master/python_code/blogs_and_nlp__summarize.py" target="_blank" rel="external">github</a>。</p>
-<p>Luhn的这种算法后来被简化，不再区分”簇”，只考虑句子包含的关键词。下面就是一个例子（采用伪码表示），只考虑关键词首先出现的句子。</p>
-<p>类似的算法已经被写成了工具，比如基于Java的<a href="http://classifier4j.sourceforge.net/" target="_blank" rel="external">Classifier4J</a>库的<a href="http://classifier4j.sourceforge.net/subprojects/core/apidocs/net/sf/classifier4J/summariser/SimpleSummariser.html" target="_blank" rel="external">SimpleSummariser</a>模块、基于C语言的<a href="http://libots.sourceforge.net/" target="_blank" rel="external">OTS</a>库、以及基于classifier4J的<a href="http://nclassifier.sourceforge.net/" target="_blank" rel="external">C#实现</a>和<a href="https://groups.google.com/forum/?fromgroups#!topic/nltk-dev/qV9e5TsCBHg" target="_blank" rel="external">python实现</a>。</p>
-<p>参考文章：</p>
-<ul>
-<li><a href="http://www.ruanyifeng.com/blog/2013/03/automatic_summarization.html" target="_blank" rel="external">http://www.ruanyifeng.com/blog/2013/03/automatic_summarization.html</a></li>
-<li><a href="http://joshbohde.com/blog/document-summarization" target="_blank" rel="external">http://joshbohde.com/blog/document-summarization</a></li>
-</ul>
-<h2 id="TextTeaser"><a href="#TextTeaser" class="headerlink" title="TextTeaser"></a>TextTeaser</h2><p><a href="http://www.textteaser.com/" target="_blank" rel="external">TextTeaser</a> 原本是为在线长文章（所谓 tl;dr：too long; didn’t read）自动生成摘要的服务，其原本的收费标准是每摘要 1000 篇文章付费 12 美元或每月 250 美元。巴尔宾称 TextTeaser 可以为任何使用罗马字母的文本进行摘要，而且比同类工具如 Cruxbot 和 Summly（在 2013 年 3 月被 雅虎斥资 3000 万美元收购）更准确。其创造者霍洛•巴尔宾（Jolo Balbin）表示，在“发现一些扩展问题，特别是 API 中的问题后”，他决定将 TextTeaser 代码开源。</p>
-<p>TextTeaser开源的代码一共有三个class，TextTeaser,Parser,Summarizer。</p>
-<ul>
-<li>TextTeaser，程序入口类。给定待摘要的文本和文本题目，输出文本摘要，默认是原文中最重要的5句话。</li>
-<li>Summarizer，生成摘要类。计算出每句话的分数，并按照得分做排序，然后按照原文中句子的顺序依次输出得分最高的5句话作为摘要。</li>
-<li>Parser，文本解析类。对文本进行去除停用词、去除标点符号、分词、统计词频等一些预处理操作。</li>
-</ul>
-<p>其中打分模型分为四部分：</p>
-<ul>
-<li>句子长度，长度为20的句子为最理想的长度，依照距离这个长度来打分。</li>
-<li>句子位置，根据句子在全文中的位置，给出分数。（巴尔宾认为一篇文章的第二句比第一句更重要，因为很多作家都习惯到第二句话引入关键点）备注：用段落效果会怎样？</li>
-<li>文章标题与文章内容的关系，句子是否包含标题词，根据句子中包含标题词的多少来打分。</li>
-<li>句子关键词打分，文本进行预处理之后，按照词频统计出排名前10的关键词，通过比较句子中包含关键词的情况，以及关键词分布的情况来打分（sbs，dbs两个函数）。</li>
-</ul>
-<p>开源版本：</p>
-<ul>
-<li>Scala版本：<a href="https://github.com/MojoJolo/textteaser" target="_blank" rel="external">https://github.com/MojoJolo/textteaser</a></li>
-<li>Python版本：<a href="https://github.com/DataTeaser/textteaser" target="_blank" rel="external">https://github.com/DataTeaser/textteaser</a></li>
-</ul>
-<p>自己尝试这个调用Python版本。主要：不要使用pip install textteaser进行安装，该安装方式安装的是这个项目：</p>
-<p><a href="https://github.com/jgoettsch/py-textteaser" target="_blank" rel="external">https://github.com/jgoettsch/py-textteaser</a>，该项目并非算法实现，而是API实现。直接下载代码即可：<a href="https://github.com/DataTeaser/textteaser" target="_blank" rel="external">https://github.com/DataTeaser/textteaser</a></p>
-<p>下载完成后在Windows下运营test.py会报错，报错信息如下：</p>
-<table>
-<thead>
-<tr>
-<th>123456789101112</th>
-<th>Traceback (most recent call last):  File “D:/textteaser/test.py”, line 12, in <module>    sentences = tt.summarize(title, text)  File “D:\textteaser\textteaser__init<strong>.py”, line 13, in summarize    result = self.summarizer.summarize(text, title, source, category)  File “D:\textteaser\textteaser\summarizer.py”, line 11, in summarize    sentences = self.parser.splitSentences(text)  File “D:\textteaser\textteaser\parser.py”, line 62, in splitSentences    tokenizer = nltk.data.load(‘file:’ + os.path.dirname(os.path.abspath(</strong>file__)) + ‘/trainer/english.pickle’)  File “C:\Python27\lib\site-packages\nltk\data.py”, line 806, in load    resource_val = pickle.load(opened_resource)ImportError: No module named copy_reg</module></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>针对报错信息，做如下修改：</p>
-<p>1、将”D:\textteaser\textteaser\parser.py”第62行进行修改：</p>
-<table>
-<thead>
-<tr>
-<th>12</th>
-<th>#tokenizer = nltk.data.load(‘file:’ + os.path.dirname(os.path.abspath(<strong>file</strong>)) + ‘/trainer/english.pickle’)tokenizer = nltk.data.load(‘file:’ + os.path.dirname(os.path.abspath(<strong>file</strong>)) + os.sep + ‘trainer’ + os.sep + ‘english.pickle’)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>2、找到”\Lib\site-packages\nltk\data.py”第924行，将</p>
-<table>
-<thead>
-<tr>
-<th>1</th>
-<th>return find(path_, [‘’]).open()</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>修改为：</p>
-<table>
-<thead>
-<tr>
-<th>123456789</th>
-<th>file<em>path = find(path</em>, [‘’])        data = open(file_path, ‘rb’).read()        newdata = data.replace(“\r\n”, “\n”)        if newdata != data:            f = open(file_path, “wb”)            f.write(newdata)            f.close()        f = open(file_path, “rb”)        return f</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>注意：TextTeaser目前只支持英文摘要。</p>
-<h2 id="TextRank"><a href="#TextRank" class="headerlink" title="TextRank"></a>TextRank</h2><p>TextRank算法是一种用于文本的基于图的排序算法。其基本思想来源于谷歌的PageRank算法, 通过把文本分割成若干组成单元(单词、句子)并建立图模型, 利用投票机制对文本中的重要成分进行排序, 仅利用单篇文档本身的信息即可实现关键词提取、文摘。和 LDA、HMM 等模型不同, TextRank不需要事先对多篇文档进行学习训练, 因其简洁有效而得到广泛应用。</p>
-<p>TextRank 一般模型可以表示为一个有向有权图 G =(V, E), 由点集合 V和边集合 E 组成, E 是V ×V的子集。图中任两点 Vi , Vj 之间边的权重为 wji , 对于一个给定的点 Vi, In(Vi) 为 指 向 该 点 的 点 集 合 , Out(Vi) 为点 Vi 指向的点集合。点 Vi 的得分定义如下:</p>
-<p><img src="http://www.biaodianfu.com/wp-content/uploads/2016/09/TextRank.png" alt="TextRank"></p>
-<p>其中, d 为阻尼系数, 取值范围为 0 到 1, 代表从图中某一特定点指向其他任意点的概率, 一般取值为 0.85。使用TextRank 算法计算图中各点的得分时, 需要给图中的点指定任意的初值, 并递归计算直到收敛, 即图中任意一点的误差率小于给定的极限值时就可以达到收敛, 一般该极限值取 0.0001。</p>
-<p><strong>基于TextRank的关键词提取</strong></p>
-<p>关键词抽取的任务就是从一段给定的文本中自动抽取出若干有意义的词语或词组。TextRank算法是利用局部词汇之间关系（共现窗口）对后续关键词进行排序，直接从文本本身抽取。其主要步骤如下：</p>
-<ol>
-<li>把给定的文本T按照完整句子进行分割，</li>
-<li>对于每个句子，进行分词和词性标注处理，并过滤掉停用词，只保留指定词性的单词，如名词、动词、形容词，其中是保留后的候选关键词。</li>
-<li>构建候选关键词图G = (V,E)，其中V为节点集，由2生成的候选关键词组成，然后采用共现关系（co-occurrence）构造任两点之间的边，两个节点之间存在边仅当它们对应的词汇在长度为K的窗口中共现，K表示窗口大小，即最多共现K个单词。</li>
-<li>根据上面公式，迭代传播各节点的权重，直至收敛。</li>
-<li>对节点权重进行倒序排序，从而得到最重要的T个单词，作为候选关键词。</li>
-<li>由5得到最重要的T个单词，在原始文本中进行标记，若形成相邻词组，则组合成多词关键词。例如，文本中有句子“Matlab code for plotting ambiguity function”，如果“Matlab”和“code”均属于候选关键词，则组合成“Matlab code”加入关键词序列。</li>
-</ol>
-<p><strong>基于TextRank的自动文摘</strong></p>
-<p>基于TextRank的自动文摘属于自动摘录，通过选取文本中重要度较高的句子形成文摘，其主要步骤如下：</p>
-<ol>
-<li>预处理：将输入的文本或文本集的内容分割成句子得，构建图G =（V,E），其中V为句子集，对句子进行分词、去除停止词，得，其中是保留后的候选关键词。</li>
-<li>句子相似度计算：构建图G中的边集E，基于句子间的内容覆盖率，给定两个句子，采用如下公式进行计算：<img src="http://www.biaodianfu.com/wp-content/uploads/2016/09/simikarity-1.png" alt="simikarity-1">若两个句子之间的相似度大于给定的阈值，就认为这两个句子语义相关并将它们连接起来，即边的权值：<img src="http://www.biaodianfu.com/wp-content/uploads/2016/09/similarity-2.png" alt="similarity-2"></li>
-<li>句子权重计算：根据公式，迭代传播权重计算各句子的得分；</li>
-<li>抽取文摘句：将3得到的句子得分进行倒序排序，抽取重要度最高的T个句子作为候选文摘句。</li>
-<li>形成文摘：根据字数或句子数要求，从候选文摘句中抽取句子组成文摘。</li>
-</ol>
-<p>参考资料：</p>
-<ul>
-<li><a href="https://github.com/letiantian/TextRank4ZH" target="_blank" rel="external">https://github.com/letiantian/TextRank4ZH</a></li>
-<li><a href="https://github.com/chenbjin/ASExtractor" target="_blank" rel="external">https://github.com/chenbjin/ASExtractor</a></li>
-</ul>
-<h2 id="玻森自动摘要"><a href="#玻森自动摘要" class="headerlink" title="玻森自动摘要"></a>玻森自动摘要</h2><p>玻森采用的是最大边缘相关模型（Maximal Marginal Relevance）的一个变种。MMR是无监督学习模型，它的提出是为了提高信息检索（Information Retrieval）系统的表现。例如搜索引擎就是目前大家最常用的信息检索系统。大家可能经常会碰到，对于我们输入的一个关键词，搜索引擎通常会给出重复的或者内容太接近的检索的情况。为了避免这个现象，搜索引擎可以通过MMR来增加内容的多样性，给出多方面考虑的检索结果，以此来提高表现。这样的思想是可以被借鉴用来做摘要的，因为它是符合摘要的基本要求的，即权衡相关性和多样性。不难理解，摘要结果与原文的相关性越高，它就接近全文中心意思。而考虑多样性则使得摘要内容更加的全面。非常的直观和简单是该模型的一个优点。</p>
-<p>相比于其他无监督学习方法，如TextRank（TR）， PageRank（PR）等，MMR是考虑了信息的多样性来避免重复结果。TR，PR是基于图（Graph）的学习方法，每个句子看成点，每两个点之间都有一条带权重（Weighted）的无向边。边的权重隐式定义了不同句子间的游走概率。这些方法把做摘要的问题看成随机游走来找出稳态分布（Stable Distribution）下的高概率（重要）的句子集，但缺点之一便是无法避免选出来的句子相互之间的相似度极高的现象。而MMR方法可以较好地解决句子选择多样性的问题。具体地说，在MMR模型中，同时将相关性和多样性进行衡量。因此，可以方便的调节相关性和多样性的权重来满足偏向“需要相似的内容”或者偏向“需要不同方面的内容”的要求。对于相关性和多样性的具体评估，玻森是通过定义句子之间的语义相似度实现。句子相似度越高，则相关性越高而多样性越低。</p>
-<p>自动摘要的核心便是要从原文句子中选一个句子集合，使得该集合在相关性与多样性的评测标准下，得分最高。数学表达式如下：</p>
-<p><img src="http://www.biaodianfu.com/wp-content/uploads/2016/09/mmr.png" alt="mmr"></p>
-<p>需要注意的是，D，Q，R，S都为句子集，其中，D表示当前文章，Q表示当前中心意思，R表示当前非摘要，S表示当前摘要。可以看出，在给定句子相似度的情况下，上述MMR的求解为一个标准的最优化问题。但是，上述无监督学习的MMR所得摘要准确性较低，因为全文的结构信息难以被建模，如段落首句应当有更高的权重等。为了提高新闻自动摘要的表现，玻森在模型中加入了全文结构特征，将MMR改为有监督学习方法。从而模型便可以通过训练从“标准摘要”中学习特征以提高准确性。</p>
-<p>玻森采用摘要公认的Bi-gram ROUGE F1方法来判断自动生成的摘要和“标准摘要”的接近程度。经过训练，玻森在训练数集上的表现相对于未学习的摘要结果有了明显的提升——训练后的摘要系统F1提高了30%。值得一提的是，在特征训练中，为了改善摘要结果的可读性，玻森加指代关系特征，使得模型表现提高了8%。</p>
-<p>相关链接：</p>
-<ul>
-<li><a href="http://bosonnlp.com/" target="_blank" rel="external">http://bosonnlp.com/</a></li>
-<li><a href="http://docs.bosonnlp.com/summary.html" target="_blank" rel="external">http://docs.bosonnlp.com/summary.html</a></li>
-</ul>
-<p><strong>其他相关开源项目</strong>：</p>
-<ul>
-<li><a href="https://github.com/isnowfy/snownlp" target="_blank" rel="external">https://github.com/isnowfy/snownlp</a></li>
-<li><a href="https://github.com/jannson/yaha" target="_blank" rel="external">https://github.com/jannson/yaha</a></li>
-<li><a href="https://github.com/miso-belica/sumy" target="_blank" rel="external">https://github.com/miso-belica/sumy</a></li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;自动摘要（Automatic Summarization）的方法主要有两种：Extraction和Abstraction。其中Extraction是抽取式自动文摘方法，通过提取文档中已存在的关键词，句子形成摘要；Abstraction是生成式自动文摘方法，通过建立抽象的语意表示，使用自然语言生成技术，形成摘要。由于自动摘要方法需要复杂的自然语言理解和生成技术支持，应用领域受限。，抽取式摘要成为现阶段主流，它也能在很大程度上满足人们对摘要的需求。
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
-    
-      <category term="technology" scheme="http://cybors.github.io/tags/technology/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>map_reduce</title>
-    <link href="http://cybors.github.io/2016/09/26/map-reduce/"/>
-    <id>http://cybors.github.io/2016/09/26/map-reduce/</id>
-    <published>2016-09-25T18:37:15.000Z</published>
-    <updated>2016-09-27T11:27:20.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>MapReduce<br>在Python里内建了Map和Reduce 函数，一开始怎么也看不明白，看图识也不明白。<br>直到看了”MapReduce:Simplified Data Processing on Large Clusters” <a href="https://www.cs.utexas.edu/~pingali/CS395T/2012sp/lectures/MR-nikhil-panpalia.pdf" target="_blank" rel="external">link</a>（面向大型集群的简化数据处理）这个论文来自GOOGLE.<a id="more"></a><br><img src="http://www.liaoxuefeng.com/files/attachments/0013879622109990efbf9d781704b02994ba96765595f56000/0" alt="MAP"><br>Map(映射)Reduce(化简)<br>MapRedce 既是一种编程模型，也是一种与之关联的、用于处理和产生大数据集的实现。用户要特化一个map程序去处理key/value对，并产生中间key/value对的集合，以及一个Reduce程序去合并有着相同key的所有中间key/value对。</p>
-<p>用这种函数风格写出的程序自动就拥有了在一个大的PC机集群上并执行的能力。运行时系统会负责细节：切分输入数据，在一组机器上调度执行程序，处理机器错误，以及管理所需的机器间通信。这允许不具备任何并行和分布式系统经验的程序员也能轻松地利用一个大型分布式系统的资源。<br>我们的MapReduce实现运行在一个大型PC机集群上，且具有很好的扩展性：一个典型的MapReduce作业运行在Google的集群上。<br><strong>编程模型</strong><br>计算过程就是输入一组key/value对，再生成一组key/value对。MapReduce库的使用者用两个函数来表示这个过程：map和reduce。</p>
-<p>map由使用者编写,使用一个输入key/value对，生成一组中间key/value对。MapReduce库将有着相同中间Key I中间的value都组合在一起，再传给reduce函数。<br>reduce也由使用者编写，它接受一个中间Key I 和一组与I对应的value.他将这些value合并为一个可能更小的value集合。通常每个reduce调用只产生0或1输出value.中间value是通过一个迭代器提供给reduce函数的。这允许我们操作那些因为大到找不到连续存放的内存而使用链表的value集合。</p>
-<p>Example:</p>
-<figure class="highlight plain"><figcaption><span>key,String value):</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">       //key:文档名</div><div class="line">       //value：文档内容</div><div class="line">       for each word w in value:</div><div class="line">           EmitIntermediate(w,&quot;1&quot;);</div><div class="line">reduce(Stringkey,Iterator values):</div><div class="line">    //key:一个单词</div><div class="line">    //value:计数值列表</div><div class="line">    int result = 0;</div><div class="line">    for each v in values:</div><div class="line">        result += ParseInt(v);</div><div class="line">    Emit(AsString(result));</div></pre></td></tr></table></figure>
-<p>map函数将每个单词与出现次数一同输出（↑例子中鸡蛋的那输出“1”）reduce函数将针对某个特定词输出的次数都合并相加。</p>
-<p>另外，使用者要写代码填充一个符合MapReduce规格的对象，内容包括输入和输出文件的名字，以及可选的调节参数。之后使用者调用MapReduce函数，将指定到对象传进去。用户代码会与MapReduce库链接到一起。</p>
-<p><strong>实现</strong><br>许多不同的MapReduce的实现都是可行的。选择哪一个要取决于环境。例如，一种实现可能适合于小型的共享内存机器，一种实现可能适合于大型的NUMA多处理器机器，而另一种则适合于更大型的联网机器集。</p>
-<p>本部分描述的实现主要面向Google内部广泛使用的计算环境：大型的商用PC机集群，互相之间用交换式以太网连接。我们的环境是：</p>
-<p>主要使用的机器为双核X86处理器，运行Linux系统，每台机器的内存从2GB到4GB不等。</p>
-<p>使用的都是商用网络硬件设备——在机器层面上通常从100Mbps到1Gbps不等，但平均起来要比总带宽的一半少很多。</p>
-<p>集群中拥有数百或数千台机器，因此机器错误经常出现。</p>
-<p>每台机器都使用廉价的IDE硬盘来提供存储功能。我们使用一种内部开发的分布式文件系统来管理这些磁盘上的数据。这个文件系统通过复制的方法在不可靠的硬件之上提供了实用性与可靠性。</p>
-<p>用户向一个调度系统提交作业。每个作业包括了一个任务集，会由调度器调度到集群内可用的一组机器上。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;MapReduce&lt;br&gt;在Python里内建了Map和Reduce 函数，一开始怎么也看不明白，看图识也不明白。&lt;br&gt;直到看了”MapReduce:Simplified Data Processing on Large Clusters” &lt;a href=&quot;https://www.cs.utexas.edu/~pingali/CS395T/2012sp/lectures/MR-nikhil-panpalia.pdf&quot;&gt;link&lt;/a&gt;（面向大型集群的简化数据处理）这个论文来自GOOGLE.
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="python" scheme="http://cybors.github.io/tags/python/"/>
-    
-      <category term="technology" scheme="http://cybors.github.io/tags/technology/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ubuntu_download</title>
-    <link href="http://cybors.github.io/2016/09/25/Ubuntu-download/"/>
-    <id>http://cybors.github.io/2016/09/25/Ubuntu-download/</id>
-    <published>2016-09-24T17:52:31.000Z</published>
-    <updated>2016-09-27T01:34:04.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Ubuntu下的多线程下载工具<br>Uget和aria2下载神器，类似win下的迅雷 旋风等工具<br><a id="more"></a><br><strong>Install</strong><br>1.添加依赖<br><code>sudo add-apt-repository ppa:plushuang-tw/uget-stable</code><br><code>sudo add-apt-repository ppa:t-tujikawa/ppa</code><br>2.更新依赖<br><code>sudo apt-get update</code><br>3.安装uget 、aria2<br><code>sudo apt-get install uget aria2</code><br>4.配置<br>将最大连接数设置为16<br>uget—All Category—右键—Properties—Default for new download1—Max Connections—16<br>开启aria插件<br>uget—右键—settings—Plug-in—Plug-in matching order—aria2<br>同时，下方的arguments: –enable-rpc=true</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Ubuntu下的多线程下载工具&lt;br&gt;Uget和aria2下载神器，类似win下的迅雷 旋风等工具&lt;br&gt;
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="linux" scheme="http://cybors.github.io/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ubuntu</title>
-    <link href="http://cybors.github.io/2016/09/25/Ubuntu/"/>
-    <id>http://cybors.github.io/2016/09/25/Ubuntu/</id>
-    <published>2016-09-24T16:07:08.000Z</published>
-    <updated>2016-09-24T16:21:32.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Ubuntu-16-04-LTS"><a href="#Ubuntu-16-04-LTS" class="headerlink" title="Ubuntu 16.04 LTS"></a>Ubuntu 16.04 LTS</h2><p>前几天心血来潮看到都在说 Elementary 这个Ubuntu的分支是最美的。于是趁着有点闲空，就做了个启动盘，Elementary可以正确识别之前安装的Ubuntu，然后就执行了覆盖安装。<a id="more"></a><br>   Elementary确实有着独到的美感，有点像MAC的感觉，但是很多的软件都是非常的不常见，有点差异化发展的意思。<br>   但是并没有Ubuntu好用，遂决定再回到Ubuntu的环境。</p>
-<p>   说起Ubuntu，这要追溯到2008年，当时Ubuntu为了推广，在网上发布了免费申请Ubuntu的安装光盘的活动，立马就申请了（32bit和64bit各一份），暑假之前申请，历经2个多月的大学暑假，大概是开学一个多月后，收到学校邮局的通知，当时因为地址填写的是英文，据邮局的工作人员说有三四个老师轮番翻译了一边才正确投递。</p>
-<p>   拿到手的第一时间就感觉好兴奋，当时就被Ubuntu的人文情感所迷倒，人生的第一份来自地球另一端的快件。还附赠了logo贴纸，至今我都留着没舍得乱贴。封面设计非常简单，四个来自不同国家的年轻人躺在草地上，就这样的简单意境，对我对IT的认知产生了新的影响。</p>
-<p>   Canonical 在今年的4月发布了16.04 LTS（Xenial Xerus）发布说这是一个长期支持版本，官方会提供长达5年的Techinical Support，也就是大概可以支持到2021年4月左右，这也是决定要重新安装回到Ubuntu的一个原因。</p>
-<p>   附上下载地址：<br>   Ubuntu 16.04 LTS官方镜像下载：</p>
-<p>32位：<a href="http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-i386.iso" target="_blank" rel="external">http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-i386.iso</a></p>
-<p>64位：<a href="http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso" target="_blank" rel="external">http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso</a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">关于如何安装就不在这里赘述了，网上可以GG到一大片，恩想要GG的可以看Google Mirror这篇文章。</div></pre></td></tr></table></figure>
-<p>关于SUBLIME TEXT3的中文输入问题</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">因为安装这个Linux主要是为了Python的开发环境，所以围绕着Python做了环境部署。</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">编辑及IDE环境使用 Pycharm VIM Gedit atom Sublime Text3</div><div class="line">其中，在SublimeText3 解决无法使用中文的问题，网上的答案几乎出自同一个人，但是并不好用，需要生成共用的配置文件等。其实在github上有个更为简单的解决方法。</div></pre></td></tr></table></figure>
-<p><a href="https://github.com/lyfeyaj/sublime-text-imfix" target="_blank" rel="external">github/lyfeyaj</a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">Step to use this repo</div><div class="line">1.Update and then upgrade your system to the newest</div><div class="line">`sudo apt-get updat &amp;&amp; sudo apt-get updrade`</div><div class="line">2.Clone this repo in your local directory:</div><div class="line">`git clone https://github.com/lyfeyaj/sublime-text-imfix.git`</div><div class="line">3.Change your current directory to sublime-text-imfix:</div><div class="line">`cd sublime-text-imfix`</div><div class="line">4.Run the below script:</div><div class="line">`./sublim-imfix`</div><div class="line">5.Done! Re-login Ubuntu.And then you gan enjoy using Sublime Text3!</div></pre></td></tr></table></figure>
-<p> 关于有道词典的安装.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">有道词典提供Linux的deb安装包，但是下载了Ubuntu 64bit的安装包无法正常安装，使用install -f解决依赖包的问题也无法正常解决，看到页面置顶的是Deepin的deb包尝试了一下 下载后直接一步安装成功～</div></pre></td></tr></table></figure>
-<p> 关于Pycharm</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">现在来看使用Pycharm的人越来越多，而且Pycharm也相对智能人性一些，在创建Project的时候提供选择语言环境，是Python2还是Python3，有点类似使用Python自己的虚拟环境的感觉。</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">注意 2016版本使用网上的 Lisence server已经失效，不过还是侥幸找到一枚可用的激活码。</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Ubuntu-16-04-LTS&quot;&gt;&lt;a href=&quot;#Ubuntu-16-04-LTS&quot; class=&quot;headerlink&quot; title=&quot;Ubuntu 16.04 LTS&quot;&gt;&lt;/a&gt;Ubuntu 16.04 LTS&lt;/h2&gt;&lt;p&gt;前几天心血来潮看到都在说 Elementary 这个Ubuntu的分支是最美的。于是趁着有点闲空，就做了个启动盘，Elementary可以正确识别之前安装的Ubuntu，然后就执行了覆盖安装。
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
-    
-      <category term="linux" scheme="http://cybors.github.io/tags/linux/"/>
-    
-      <category term="ubuntu" scheme="http://cybors.github.io/tags/ubuntu/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>netease_musicbox</title>
-    <link href="http://cybors.github.io/2016/09/24/netease-musicbox/"/>
-    <id>http://cybors.github.io/2016/09/24/netease-musicbox/</id>
-    <published>2016-09-23T18:35:30.000Z</published>
-    <updated>2016-09-27T03:13:20.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>网易云音乐</p>
-<p>在Ubuntu下如何听高品质的音乐，虾米还是网易云，无意间看到了<a href="https://github.com/kigawas/musicbox" target="_blank" rel="external">kigawas</a>的网易云音乐命令行版本。<a id="more"></a> 但是在安装过程中遇到很多问题，并不在作者的FAQ里面<br>遇到的报错，我的Py环境py2和py3里面都没有安装future Module，在pip install future 的环节中反复报错有好多的依赖包没有安装，依次安装后成功安装。</p>
-<p>键盘快捷键</p>
-<p>J    Down    下移<br>K    Up    上移<br>H    Back    后退<br>L    Forword    前进<br>U    Prev page    上一页<br>D    Next page    下一页<br>F    Search    快速搜索<br>[    Prev song    上一曲<br>]    Next song    下一曲<br>=    Volume +    音量增加</p>
-<ul>
-<li>Volume -    音量减少<br>SpacePlay/Pause    播放/暂停<br>?Shuffle    手气不错<br>MMenu    主菜单<br>PPresent/History    当前/历史播放列表<br>IMusic Info    当前音乐信息<br>⇧+PPlaying Mode    播放模式切换<br>AAdd    添加曲目到打碟<br>ZDJ list    打碟列表<br>SStar    添加到收藏<br>CCollection    收藏列表<br>RRemove    删除当前条目<br>⇧+JMove Down    向下移动当前项目<br>⇧+KMove Up    向上移动当前项目<br>⇧+CCache    缓存歌曲到本地<br>,Like    喜爱<br>.Trash FM    删除 FM<br>/Next FM    下一FM<br>QQuit    退出<br>WQuit&amp;Clear    退出并清除用户信息</li>
-</ul>
-<p>Ubuntu安装方法<br><code>sudo pip install NetEase-MusicBox</code><br><code>sudo apt-get install mpg123</code></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;网易云音乐&lt;/p&gt;
-&lt;p&gt;在Ubuntu下如何听高品质的音乐，虾米还是网易云，无意间看到了&lt;a href=&quot;https://github.com/kigawas/musicbox&quot;&gt;kigawas&lt;/a&gt;的网易云音乐命令行版本。
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="linux" scheme="http://cybors.github.io/tags/linux/"/>
-    
-      <category term="tool" scheme="http://cybors.github.io/tags/tool/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>old-string-formatting</title>
-    <link href="http://cybors.github.io/2016/09/22/old-string-formatting/"/>
-    <id>http://cybors.github.io/2016/09/22/old-string-formatting/</id>
-    <published>2016-09-22T03:59:18.000Z</published>
-    <updated>2016-09-22T05:44:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="旧式字符串格式化"><a href="#旧式字符串格式化" class="headerlink" title="旧式字符串格式化"></a>旧式字符串格式化</h2><p>%操作符可以实现字符串格式化。它将左侧的参数作为类似sprintf()式的格式化字符串，而将右侧的代入，然后返回格式化后的字符串。<a id="more"></a></p>
-<p>for example:</p>
-<figure class="highlight plain"><figcaption><span>math</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt;&gt;&gt;print(&apos;The value of PI is approximately %5.3f.&apos; %math.pi)</div><div class="line">The value of PI is approximately 3.142</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">因为目前的趋势很多人开始学习Python的人都是学Python3.5 ，但仍有大量企业使用Python2.7，很多的第三方库对version3的版本没有支持。</div><div class="line"></div><div class="line">新的字符串格式化 str.format(),将会替代旧式的%</div><div class="line"></div><div class="line">For example.</div><div class="line"></div><div class="line">```python</div><div class="line">&apos;The sum of 1 + 2 is 3&apos;</div></pre></td></tr></table></figure>
-<p>str.format_map(mapping)</p>
-<figure class="highlight plain"><figcaption><span>default(dict):</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">      def __missing__(self,key):</div><div class="line">          return key</div><div class="line">          </div><div class="line">  &apos;&#123;name&#125; was born in &#123;country&#125;&apos;.format_map(default(name=&apos;Guido&apos;))</div><div class="line">&apos;Guido war borin in country&apos;</div></pre></td></tr></table></figure>
-<p>str.index(sub[,start[,end]]) </p>
-<p>Like find(),but raise ValueError when the substring is not found.</p>
-<p>区别与find(),find的结果为False时返回-1，index()的查询值如果不在str中，则会报错。</p>
-<p><code>changxufeng.find(&#39;y&#39;)//return -1</code></p>
-<p><code>changxufeng.index(&#39;y&#39;)// ValueError:substring not found</code></p>
-<p>str.isalnum()</p>
-<p>​    Return true if all characters in the string are alphanumeric and there is at least one character,false otherwise. A character c is alphanumeric if one of the following returns True: c.isalpha(), c.isdecimal(),  c.isdigit(), or c.isnumeric().</p>
-<p>如果都是字母和数字时候，return True, else return False.</p>
-<p>str.isalpha()</p>
-<p>​    Return true if all characters in the string are alphabetic and there is at least one character, false otherwise.Alphabetic characters are those characters defined in the Unicode character database as “Letter”,ie.e., those with general category property being one of “Lm”,”Lt”, “Lu”,”Ll” or “Lo” .Note that this is different from the “Alphabetic” propertty defined in the Unicode Standard.</p>
-<p>判断str是否都是数字</p>
-<p>str.isdecimal()</p>
-<p>​    Return true if all characters in the string are <strong>decimal</strong> characters and there is at least one character,false otherwise.Decimal characters are those from general catefory “Nd”. This category includes digit characters,and all characters that that can be used to form decimal-radix numbers,e.g. U+0660,ARABIC-INDIC DIGIT ZERO.</p>
-<p>判断str是否是十进制数。</p>
-<p>str.lstrip([<em>chars</em>])</p>
-<p>Return a copy of the string with leading characters removed. The <em>chars</em> argument is a string specifying the set of characters to be removed. If omitted or<code>None</code>, the <em>chars</em> argument defaults to removing whitespace. The <em>chars</em> argument is not a prefix; rather, all combinations of its values are stripped:</p>
-<p><code>&#39;  changxufeng&#39;.lstrip()</code>\当argu为空是，返回结果为去掉str前面的空格。不影响原来str的值，只是一份copy</p>
-<p><code>&#39;changxufeng&#39;.lstrip(chang)</code>\return ‘xufeng’</p>
-<p>如果去掉首位的空格可以使用str.strip()</p>
-<p><code>&#39;changxufeng&#39;.rstrip(&#39;xufeng&#39;)</code>\return ‘cha’</p>
-<p>str.title()</p>
-<p>​    Return a titlecased version of the string where words start with an uppercase character and the remaining characters are lowercase.</p>
-<p>​    The algorithm uses a simple language-independent definition of a word as groups of consecutive letters. The definition works in many contexts but it means that apostrophes in contractions and possessives form word boundaries, which may not be the desired result:</p>
-<p>string中首字母大写。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;旧式字符串格式化&quot;&gt;&lt;a href=&quot;#旧式字符串格式化&quot; class=&quot;headerlink&quot; title=&quot;旧式字符串格式化&quot;&gt;&lt;/a&gt;旧式字符串格式化&lt;/h2&gt;&lt;p&gt;%操作符可以实现字符串格式化。它将左侧的参数作为类似sprintf()式的格式化字符串，而将右侧的代入，然后返回格式化后的字符串。
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
-    
-      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>外链图床的更换</title>
-    <link href="http://cybors.github.io/2016/09/22/exp-link/"/>
-    <id>http://cybors.github.io/2016/09/22/exp-link/</id>
-    <published>2016-09-21T17:52:31.000Z</published>
-    <updated>2016-09-22T05:48:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>##外链图床的更换<br>考虑到要坚持长期写作记录的目标，在日志中需要po一些图出来，而github只有300Mb的空间，注册了<a href="https://portal.qiniu.com/signin" target="_blank" rel="external">七牛云</a>的云服务并进行了验证，考虑到只有一年的免费使用时间，而自己制定的目标要比这遥远，为了计划不被外力夭折。<br>GG了稳定的图床，发现质量好速度快的图床几户都被滥用而和谐，发现了<a href="http://www.huangguofeng.com" target="_blank" rel="external">黄国锋</a>开发的百度直连系统。<br>将图片放到百度云盘应该是个不错的选择，一来速度和cdn都是免费的，二如果如果真的那天不开放了，图片的路径仍然可以保存。可以直接一次全部替换路径实现修复。</p>
-<p>link：<a href="http://bdbea3.duapp.com/baidu_pcs/file_manage.php" target="_blank" rel="external">http://bdbea3.duapp.com/baidu_pcs/file_manage.php</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;##外链图床的更换&lt;br&gt;考虑到要坚持长期写作记录的目标，在日志中需要po一些图出来，而github只有300Mb的空间，注册了&lt;a href=&quot;https://portal.qiniu.com/signin&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="blog" scheme="http://cybors.github.io/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>最好的语言</title>
-    <link href="http://cybors.github.io/2016/09/21/ruby-best/"/>
-    <id>http://cybors.github.io/2016/09/21/ruby-best/</id>
-    <published>2016-09-21T14:52:31.000Z</published>
-    <updated>2016-09-21T14:51:42.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？"><a href="#在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？" class="headerlink" title="在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？"></a>在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？</h2><p>我们来让智能的Python来告诉我们一下<a id="more"></a></p>
-<p><code>&#39;Ruby&#39; &gt; &#39;Python&#39;</code></p>
-<p><code>&#39;Ruby&#39; &gt; &#39;.NET&#39;</code></p>
-<p><code>&#39;Ruby&#39; &gt; &#39;Objective-C&#39;</code></p>
-<p><code>&#39;Ruby&#39; &gt; &#39;PHP&#39;</code></p>
-<p><code>&#39;Ruby&#39; &gt; &#39;Java&#39;</code></p>
-<p><code>&#39;Ruby&#39; &gt; &#39;C&#39;</code></p>
-<p>大家可以清晰的看到到底谁是最好的语言了，连Python的IELD环境下都自己说自己不如’Ruby’<img src="http://ww1.sinaimg.cn/large/0060lm7Tgw1f81lc9r1hij300x00u3y9.jpg" alt="汗"></p>
-<p><img src="http://ww2.sinaimg.cn/large/0060lm7Tgw1f81kg61muzj30gt0gs0us.jpg" alt="ruby"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？&quot;&gt;&lt;a href=&quot;#在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？&quot; class=&quot;headerlink&quot; title=&quot;在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？&quot;&gt;&lt;/a&gt;在选择一门编程语言前，总会有各种的选择是选C还是选Java还是其他的？&lt;/h2&gt;&lt;p&gt;我们来让智能的Python来告诉我们一下
-    
-    </summary>
-    
-      <category term="work" scheme="http://cybors.github.io/categories/work/"/>
-    
-    
-      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
-    
-      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
-    
-      <category term="joke" scheme="http://cybors.github.io/tags/joke/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Googlemirror</title>
     <link href="http://cybors.github.io/2016/09/14/Googlemirror/"/>
     <id>http://cybors.github.io/2016/09/14/Googlemirror/</id>
     <published>2016-09-14T04:04:42.000Z</published>
-    <updated>2016-12-24T03:45:58.000Z</updated>
+    <updated>2016-09-14T09:37:14.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Google-Mirror"><a href="#Google-Mirror" class="headerlink" title="Google Mirror"></a>Google Mirror</h1><p>实在是不喜欢百度&amp;百不到正确的答案，以下是搜集的谷歌镜像网址。<a id="more"></a><br><img src="http://google.adwiki.cn/logo2.jpg" alt="Google-Mirror"><br>9月23日更新<br>原版镜像：</p>
-<p><a href="http://so.biochen.com/" target="_blank" rel="external">http://so.biochen.com/</a><br><a href="http://baidusb.tk/" target="_blank" rel="external">http://baidusb.tk/</a><br><a href="https://g.inspire-energy.com.cn/" target="_blank" rel="external">https://g.inspire-energy.com.cn/</a><br><a href="https://g.starmoe.xyz/" target="_blank" rel="external">https://g.starmoe.xyz/</a><br><a href="https://letsgg.tk/" target="_blank" rel="external">https://letsgg.tk/</a><br><a href="https://www.laiguge.com/" target="_blank" rel="external">https://www.laiguge.com/</a><br><a href="http://lili.ga/" target="_blank" rel="external">http://lili.ga/</a><br><a href="http://45.78.38.197/" target="_blank" rel="external">http://45.78.38.197/</a><br><a href="https://fq.yanke.info/" target="_blank" rel="external">https://fq.yanke.info/</a><br><a href="https://g.glv.io/" target="_blank" rel="external">https://g.glv.io/</a><br><a href="https://g.libnull.com/" target="_blank" rel="external">https://g.libnull.com/</a><br><a href="http://www.jumper.site/" target="_blank" rel="external">http://www.jumper.site/</a><br><a href="https://www.guge.xxx/" target="_blank" rel="external">https://www.guge.xxx/</a><br><a href="http://198.12.101.102/" target="_blank" rel="external">http://198.12.101.102/</a><br><a href="http://www.qwspq.com/" target="_blank" rel="external">http://www.qwspq.com/</a><br><a href="https://g.namaho.com/" target="_blank" rel="external">https://g.namaho.com/</a><br><a href="http://www.51google.pw/" target="_blank" rel="external">http://www.51google.pw/</a><br><a href="http://www.nginxgoogle.com/" target="_blank" rel="external">http://www.nginxgoogle.com/</a><br><a href="https://xixico.com/" target="_blank" rel="external">https://xixico.com/</a><br><a href="http://ss2.prozhi.com/" target="_blank" rel="external">http://ss2.prozhi.com/</a><br><a href="https://g.sxisa.org/" target="_blank" rel="external">https://g.sxisa.org/</a><br><a href="https://go.coolnull.com/" target="_blank" rel="external">https://go.coolnull.com/</a><br><a href="http://bc60042.byethost13.com/" target="_blank" rel="external">http://bc60042.byethost13.com/</a><br><a href="https://g.v2fr.ml/" target="_blank" rel="external">https://g.v2fr.ml/</a><br><a href="http://s0.chenjx.cn/" target="_blank" rel="external">http://s0.chenjx.cn/</a><br><a href="http://g.chenjx.cn/" target="_blank" rel="external">http://g.chenjx.cn/</a><br><a href="https://cannotfind.me/" target="_blank" rel="external">https://cannotfind.me/</a><br><a href="https://www.xiasos.com/" target="_blank" rel="external">https://www.xiasos.com/</a><br><a href="https://www.onenew.net/" target="_blank" rel="external">https://www.onenew.net/</a><br><a href="https://g.ljqian.me/" target="_blank" rel="external">https://g.ljqian.me/</a><br><a href="https://aigg.info/" target="_blank" rel="external">https://aigg.info/</a></p>
-<h2 id="http-ljy2345-esy-es"><a href="#http-ljy2345-esy-es" class="headerlink" title="http://ljy2345.esy.es/"></a><a href="http://ljy2345.esy.es/" target="_blank" rel="external">http://ljy2345.esy.es/</a></h2><p>备用镜像：</p>
-<p><a href="http://glgoo.jsylhs.com/" target="_blank" rel="external">http://glgoo.jsylhs.com/</a><br><a href="https://xueshu.glgoo.org/" target="_blank" rel="external">https://xueshu.glgoo.org/</a><br><a href="https://julianhuang.cc/" target="_blank" rel="external">https://julianhuang.cc/</a><br><a href="https://www.ytso.cc/" target="_blank" rel="external">https://www.ytso.cc/</a><br><a href="https://g.jikewenku.cn/" target="_blank" rel="external">https://g.jikewenku.cn/</a><br><a href="http://guge.suanfazu.com/" target="_blank" rel="external">http://guge.suanfazu.com/</a><br><a href="http://kfd.me/" target="_blank" rel="external">http://kfd.me/</a><br><a href="http://gc.ihuan.me/" target="_blank" rel="external">http://gc.ihuan.me/</a><br><a href="http://scholar.hntvchina.com/" target="_blank" rel="external">http://scholar.hntvchina.com/</a><br><a href="https://ggso.co/" target="_blank" rel="external">https://ggso.co/</a><br><a href="https://ggso.me/" target="_blank" rel="external">https://ggso.me/</a><br><a href="https://ggso.in/" target="_blank" rel="external">https://ggso.in/</a><br><a href="http://ggso.gq/" target="_blank" rel="external">http://ggso.gq/</a></p>
+    <content type="html"><![CDATA[<h1 id="Google-Mirror"><a href="#Google-Mirror" class="headerlink" title="Google Mirror"></a>Google Mirror</h1><p>实在是不喜欢百度&amp;百不到正确的答案，以下是搜集的谷歌镜像网址。<a id="more"></a></p>
+<blockquote>
+<ul>
+<li>: <a href="https://g.inspire-energy.com.cn/" target="_blank" rel="external">https://g.inspire-energy.com.cn/</a></li>
+<li>: <a href="https://letsgg.tk/" target="_blank" rel="external">https://letsgg.tk/</a></li>
+<li>: <a href="https://www.laiguge.com/" target="_blank" rel="external">https://www.laiguge.com/</a></li>
+<li>: <a href="http://45.78.38.197/" target="_blank" rel="external">http://45.78.38.197/</a></li>
+<li>: <a href="https://fq.yanke.info/" target="_blank" rel="external">https://fq.yanke.info/</a></li>
+<li>: <a href="https://g.glv.io/" target="_blank" rel="external">https://g.glv.io/</a></li>
+<li>: <a href="https://g.libnull.com/" target="_blank" rel="external">https://g.libnull.com/</a></li>
+<li>: <a href="http://www.jumper.site/" target="_blank" rel="external">http://www.jumper.site/</a></li>
+<li>: <a href="https://www.guge.xxx/" target="_blank" rel="external">https://www.guge.xxx/</a></li>
+<li>: <a href="http://198.12.101.102/" target="_blank" rel="external">http://198.12.101.102/</a></li>
+<li>: <a href="https://g.namaho.com/" target="_blank" rel="external">https://g.namaho.com/</a></li>
+<li>: <a href="http://www.51google.pw/" target="_blank" rel="external">http://www.51google.pw/</a></li>
+<li>: <a href="http://www.nginxgoogle.com/" target="_blank" rel="external">http://www.nginxgoogle.com/</a></li>
+<li>: <a href="https://xixico.com/" target="_blank" rel="external">https://xixico.com/</a></li>
+<li>: <a href="http://ss2.prozhi.com/" target="_blank" rel="external">http://ss2.prozhi.com/</a></li>
+<li>: <a href="https://g.sxisa.org/" target="_blank" rel="external">https://g.sxisa.org/</a></li>
+<li>: <a href="https://go.coolnull.com/" target="_blank" rel="external">https://go.coolnull.com/</a></li>
+<li>: <a href="http://bc60042.byethost13.com/" target="_blank" rel="external">http://bc60042.byethost13.com/</a></li>
+<li>: <a href="https://g.v2fr.ml/" target="_blank" rel="external">https://g.v2fr.ml/</a></li>
+<li>: <a href="http://s0.chenjx.cn/" target="_blank" rel="external">http://s0.chenjx.cn/</a></li>
+<li>: <a href="http://g.chenjx.cn/" target="_blank" rel="external">http://g.chenjx.cn/</a></li>
+<li>: <a href="https://cannotfind.me/" target="_blank" rel="external">https://cannotfind.me/</a></li>
+<li>: <a href="https://www.xiasos.com/" target="_blank" rel="external">https://www.xiasos.com/</a></li>
+<li>: <a href="https://www.onenew.net/" target="_blank" rel="external">https://www.onenew.net/</a></li>
+<li>: <a href="https://g.ljqian.me/" target="_blank" rel="external">https://g.ljqian.me/</a></li>
+<li>: <a href="https://aigg.info/" target="_blank" rel="external">https://aigg.info/</a></li>
+</ul>
+<p>备用镜像：</p>
+<ul>
+<li>: <a href="https://xueshu.glgoo.org/" target="_blank" rel="external">https://xueshu.glgoo.org/</a></li>
+<li>: <a href="https://www.ytso.cc/" target="_blank" rel="external">https://www.ytso.cc/</a></li>
+<li>: <a href="https://g.jikewenku.cn/" target="_blank" rel="external">https://g.jikewenku.cn/</a></li>
+<li>: <a href="http://guge.suanfazu.com/" target="_blank" rel="external">http://guge.suanfazu.com/</a></li>
+<li>: <a href="http://kfd.me/" target="_blank" rel="external">http://kfd.me/</a></li>
+<li>: <a href="http://gc.ihuan.me/" target="_blank" rel="external">http://gc.ihuan.me/</a></li>
+<li>: <a href="http://scholar.hntvchina.com/" target="_blank" rel="external">http://scholar.hntvchina.com/</a></li>
+<li>: <a href="http://glgoo.jsylhs.com/" target="_blank" rel="external">http://glgoo.jsylhs.com/</a></li>
+<li>: <a href="https://julianhuang.cc/" target="_blank" rel="external">https://julianhuang.cc/</a></li>
+<li>: <a href="https://ggso.co/" target="_blank" rel="external">https://ggso.co/</a></li>
+<li>: <a href="https://ggso.me/" target="_blank" rel="external">https://ggso.me/</a></li>
+<li>: <a href="https://ggso.in/" target="_blank" rel="external">https://ggso.in/</a></li>
+</ul>
+</blockquote>
 <p>参考<a href="http://google.adwiki.cn" target="_blank" rel="external">adwiki</a></p>
 ]]></content>
     
@@ -763,9 +173,9 @@ for char in poem:
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
-    
       <category term="Android" scheme="http://cybors.github.io/tags/Android/"/>
+    
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
     
   </entry>
   
@@ -790,9 +200,41 @@ for char in poem:
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
+      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+    
       <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
     
-      <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
+  </entry>
+  
+  <entry>
+    <title>国事三两则</title>
+    <link href="http://cybors.github.io/2016/09/08/affairs/"/>
+    <id>http://cybors.github.io/2016/09/08/affairs/</id>
+    <published>2016-09-08T10:19:31.000Z</published>
+    <updated>2016-09-13T17:08:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>###杭州峰会，奥巴马问了马云3个问题，马云一个都没回答上来！<br>但且不说这个标题的真假，我看到这个文章内容的时候还是仔细的思考了一下的。</p>
+<blockquote>
+<p>G20 杭州峰会上，奥巴马和阿里巴巴集团主席马云探讨了一下。奥巴马说我们暂且不要讨论中国的经济总量什么时候能够超过美国，我先问问另外三个 “什么时候”：<a id="more"></a><br>第一，什么时候全球的精英会把孩子送到中国留学，而不是像今天都把他们的孩子送到美国、 欧洲留学？就连你们中国教育部部长都把自己子女送往美国上学！</p>
+<p>第二，什么时候全球的年轻人会最欣赏中国的电影、文化、书籍，而不是像今天他们最喜欢的是美国、欧洲的电影、书籍、音乐？</p>
+<p>第三，什么时候全球的消费者在选择产品的时候，会首选中国的品牌？</p>
+</blockquote>
+<hr>
+<p>哪些整天叫嚣这米国人生活在水深火热之中，美帝亡我之心不死的专家教授们，不知道怎么看待这三个问题？<br>现在的任何一所高效的正式在编老师都要求有2年以上的国外求学经验，这个又怎么讲？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;###杭州峰会，奥巴马问了马云3个问题，马云一个都没回答上来！&lt;br&gt;但且不说这个标题的真假，我看到这个文章内容的时候还是仔细的思考了一下的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;G20 杭州峰会上，奥巴马和阿里巴巴集团主席马云探讨了一下。奥巴马说我们暂且不要讨论中国的经济总量什么时候能够超过美国，我先问问另外三个 “什么时候”：
+    
+    </summary>
+    
+      <category term="life" scheme="http://cybors.github.io/categories/life/"/>
+    
+    
+      <category term="alive" scheme="http://cybors.github.io/tags/alive/"/>
     
   </entry>
   
@@ -832,41 +274,9 @@ for char in poem:
       <category term="work" scheme="http://cybors.github.io/categories/work/"/>
     
     
-      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
-    
       <category term="Technology" scheme="http://cybors.github.io/tags/Technology/"/>
     
-  </entry>
-  
-  <entry>
-    <title>国事三两则</title>
-    <link href="http://cybors.github.io/2016/09/08/affairs/"/>
-    <id>http://cybors.github.io/2016/09/08/affairs/</id>
-    <published>2016-09-08T10:19:31.000Z</published>
-    <updated>2016-09-13T17:08:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>###杭州峰会，奥巴马问了马云3个问题，马云一个都没回答上来！<br>但且不说这个标题的真假，我看到这个文章内容的时候还是仔细的思考了一下的。</p>
-<blockquote>
-<p>G20 杭州峰会上，奥巴马和阿里巴巴集团主席马云探讨了一下。奥巴马说我们暂且不要讨论中国的经济总量什么时候能够超过美国，我先问问另外三个 “什么时候”：<a id="more"></a><br>第一，什么时候全球的精英会把孩子送到中国留学，而不是像今天都把他们的孩子送到美国、 欧洲留学？就连你们中国教育部部长都把自己子女送往美国上学！</p>
-<p>第二，什么时候全球的年轻人会最欣赏中国的电影、文化、书籍，而不是像今天他们最喜欢的是美国、欧洲的电影、书籍、音乐？</p>
-<p>第三，什么时候全球的消费者在选择产品的时候，会首选中国的品牌？</p>
-</blockquote>
-<hr>
-<p>哪些整天叫嚣这米国人生活在水深火热之中，美帝亡我之心不死的专家教授们，不知道怎么看待这三个问题？<br>现在的任何一所高效的正式在编老师都要求有2年以上的国外求学经验，这个又怎么讲？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;###杭州峰会，奥巴马问了马云3个问题，马云一个都没回答上来！&lt;br&gt;但且不说这个标题的真假，我看到这个文章内容的时候还是仔细的思考了一下的。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;G20 杭州峰会上，奥巴马和阿里巴巴集团主席马云探讨了一下。奥巴马说我们暂且不要讨论中国的经济总量什么时候能够超过美国，我先问问另外三个 “什么时候”：
-    
-    </summary>
-    
-      <category term="life" scheme="http://cybors.github.io/categories/life/"/>
-    
-    
-      <category term="alive" scheme="http://cybors.github.io/tags/alive/"/>
+      <category term="Python" scheme="http://cybors.github.io/tags/Python/"/>
     
   </entry>
   

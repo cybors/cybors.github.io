@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <!-- Html Head Tag-->
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Royalive">
+  <!-- Open Graph Data -->
+  <meta property="og:title" content="DNS服务器设置及公共dns服务器推荐."/>
+  <meta property="og:description" content="Royalive" />
+  <meta property="og:site_name" content="诸神之黄昏"/>
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="http://cybors.github.ioundefined"/>
+  
+    <link rel="alternate" href="/atom.xml" title="诸神之黄昏" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <!-- Site Title -->
+  <title>诸神之黄昏</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  
+  <link rel="stylesheet" href="/css/style.light.css">
+
+  <!-- Google Analytics -->
+  
+
+</head>
+
+  <body>
+    <!-- Page Header -->
+
+
+<header class="site-header header-background" style="background-image: url(/img/default-banner-dark.jpg)">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-title with-background-image">
+          <p class="title">DNS服务器设置及公共dns服务器推荐.</p>
+          <p class="subtitle"></p>
+        </div>
+        <div class="site-menu with-background-image">
+          <ul>
+            
+              <li>
+                <a href="/">
+                  
+                  Home
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  
+                  Archives
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories">
+                  
+                  Categories
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/tags">
+                  
+                  Tags
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://github.com/cybors">
+                  
+                  Github
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="mailto:reg4com@163.com">
+                  
+                  Email
+                  
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<article>
+  <div class="container typo">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-info text-muted">
+          
+            <!-- Author -->
+            <span class="author info">By Royalive</span>
+          
+          <!-- Date -->
+          <span class="date-time info">On
+            <span class="date">2017-05-16</span>
+            <span class="time">16:14:31</span>
+          </span>
+          
+          <!--  Categories  -->
+            <span class="categories info">Under 
+
+<a href="/categories/work/">work</a>
+</span>
+          
+        </div>
+        <!-- Tags -->
+        
+          <div class="post-tags text-muted">
+            Tags: 
+
+<a class="tag" href="/tags/Technology/">#Technology</a> <a class="tag" href="/tags/work/">#work</a>
+
+
+          </div>
+        
+        <!-- Post Main Content -->
+        <div class="post-content">
+          <p>##公共dns设置及推荐<br>dns在平时上网中扮演重要角色，如果不注意dns的话，可能会导致网速慢，弹窗广告，网址打不开，打开的不是自己想要的网站，劫持，抢中抢等一系列问题。针对dns的问题，今天我们来总结一下，看看哪家dns服务器最好用。<br>以下常见问题可通过修改dns解决。<br>1.电脑只能上QQ，不能访问网页。<br>2.iphone手机访问appstore非常慢。<br>3.打开某网站速度非常慢。<br>&lt;!–more&gt;</p>
+<p>###设置篇<br>mac 环境<br>1.点击“系统偏好设置”点击“网络”。<br><img src="http://i2.muimg.com/588926/d95cbacd5f1a8f7d.png" alt=""><br>2.选择当前使用的网络，进入“高级”选项卡。<br><img src="http://i4.buimg.com/588926/b0d378fe378384c2.png" alt=""><br>3.选中“dns”选项卡，添加dns服务器，点击“好”<br><img src="http://i4.buimg.com/588926/84ae2d75716c0db7.png" alt=""><br>4.打开终端，输入命令 </p>
+<h2 id="sudo-dscacheutil-flushcache"><a href="#sudo-dscacheutil-flushcache" class="headerlink" title="` sudo dscacheutil -flushcache"></a>` sudo dscacheutil -flushcache</h2><p>windows 环境篇<br>1.通过控制面板，网上邻居，或者桌面右下角的网络状态图标点击进入“网络和共享中心”<br><img src="http://i1.piimg.com/588926/e79d7bd1fa5c9837.png" alt=""><br>2.点击当前使用的网络线路。进入“常规”选项卡。并点击“属性”按钮。<br><img src="http://i1.piimg.com/588926/908420701f16c419.png" alt=""><br>3.选择“使用下面的dns设置”，并填入要更改的dns服务器，点击“确定”。<br><img src="http://i1.piimg.com/588926/0a2d514667dc17cf.png" alt=""><br>4.打开开始运行（ctrl+r），输入“cmd”，打开命令行窗口。<br><img src="http://i2.muimg.com/588926/6d3207ca4907f54c.png" alt=""><br>5.输入命令 “ipconfig /flushdns” 更新dns缓存。<br><img src="http://i1.piimg.com/588926/fe6a7542b5fa13ca.png" alt=""></p>
+<p>DNSPod DNS+：★★★★★（推荐）<br>DNSPod的 Public DNS+是目前国内第一家支持ECS的公共DNS，是DNSPod推出的公共域名解析服务，可以为全网用户提供域名的公共递归解析服务！<br>DNS 服务器 IP 地址：<br>首选：119.29.29.29<br>备选：182.254.116.116<br>作者点评：测试数据显示Public DNS+国内数据均比114DNS好，强力推荐！</p>
+<p>114DNS：★★★★★<br>国内用户量巨大的DNS，访问速度快，各省都有节点，同时满足电信、联通、移动各运营商用户，可以有效预防劫持。<br>DNS 服务器 IP 地址：<br>首选：114.114.114.114<br>备选：114.114.114.115<br>作者点评：虽然测试结果比不上Public DNS+理想，但是也是非常不错的DNS！</p>
+<p>阿里 AliDNS：★★★★<br>阿里公共DNS是阿里巴巴集团推出的DNS递归解析系统，目标是成为国内互联网基础设施的组成部分，面向互联网用户提供“快速”、“稳定”、“智能”的免费DNS递归解析服务。<br>DNS 服务器 IP 地址：<br>首选：223.5.5.5<br>备选：223.6.6.6<br>作者点评：排名第三的DNS也不是吹的，只是节点貌似有点少。</p>
+<p>DNS派：★★★★<br>DNS派是聚流科技旗下的DNS服务平台,为个人用户、网站主、企业提供各种有关DNS业务的服务,包括个人上网的域名解析服务、网站授权解析服务、企业域名解析服务等。<br>DNS 服务器 IP 地址：<br>首选（电信/移动/铁通）：101.226.4.6<br>备选（电信/移动/铁通）：218.30.118.6<br>首选（联通）：123.125.81.6<br>备选（联通）：140.207.198.6<br>作者点评：360出品！测试结果还不错！</p>
+<p>百度 BaiduDNS：★★★<br>百度DNS旗下云解析服务,依托百度一流基础设施和强大技术实力,为用户提供免费的、超越竞品的服务体验。没有套餐区分,安全,稳定,高效<br>DNS 服务器 IP 地址：<br>首选：180.76.76.76<br>作者点评：暂时不知道百度有多少节点。不过应该也不少吧。</p>
+<p>CNNIC SDNS：★★★<br>SDNS是由中国互联网络信息中心(CNNIC)正式推出的免费的公共云解析服务(SecureDNS,简称SDNS)。该服务可为广大网民提供安全、智能、高速的上网接入解析服务。<br>DNS 服务器 IP 地址：<br>首选：1.2.4.8<br>备选：210.2.4.8<br>作者点评：作为国家出品的DNS，有待测试……（你敢用吗？反正我不敢）</p>
+<p>OpenDNS：★（不推荐）<br>OpenDNS是一个免费的域名解析服务提供商（DNS）。创建于2006年，长期以来致力于为广大个人用户以及商务企业用户和公共领域提供免费的域名解析服务。<br>DNS 服务器 IP 地址：<br>首选：208.67.222.222<br>备选：208.67.220.220<br>作者点评：国内节点少！貌似就几个，不推荐使用！</p>
+<p>Google DNS：★（强烈不推荐）<br>谷歌公共域名解析服务（Google Public DNS）是由谷歌公司于2009年发布的一项新的DNS服务。主要为了替代ISPs或其他公司提供的DNS服务。<br>DNS 服务器 IP 地址：<br>首选：8.8.8.8<br>备选：8.8.4.4<br>作者点评：机房在国外，国内无节点！你如果用了谷歌DNS你的信息有可能会免费出国转一圈才回来！强烈不推荐使用！只适合国外用户使用！</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+    <!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <p class="copyright text-muted">
+          Theme By <a target="_blank" href="https://github.com/cybors">Roy.</a>
+          Inspired By <a target="_blank" href="https://icybors.github.com">Cybers Blog.</a>
+        <p class="copyright text-muted">
+          Powered By <a target="_blank" href="https://hexo.io/">Hexo.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- After Footer Scripts -->
+<script src="/js/highlight.pack.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var codeBlocks = Array.prototype.slice.call(document.getElementsByTagName('pre'))
+    codeBlocks.forEach(function(block, index) {
+      hljs.highlightBlock(block);
+    });
+  });
+</script>
+
+  </body>
+</html>
+
